@@ -7,3 +7,6 @@ The data will be collected by Python, a JavaScript frontend, and a database, mos
 
 In the course of creating a project, its goals will be adjusted, in principle, this is normal!
 ___
+## Architecture
+To view the architecture.drawio, you need to install the drawio extension in Vcode
+___

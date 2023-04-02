@@ -1,0 +1,55 @@
+<mxfile host="65bd71144e">
+    <diagram id="7Fs6vfgvI15YjIwSOu54" name="Page-1">
+        <mxGraphModel dx="792" dy="493" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="3" style="edgeStyle=none;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;endArrow=open;endFill=0;startArrow=none;" edge="1" parent="1" source="4">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="650" y="170" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="2" value="Python fetches data" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#6a00ff;fontColor=#FFFF00;strokeColor=#3700CC;" vertex="1" parent="1">
+                    <mxGeometry x="340" width="145" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="" style="edgeStyle=none;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="2" target="4">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="640" y="160" as="targetPoint"/>
+                        <mxPoint x="485" y="80" as="sourcePoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="4" value="Sends them to Postgres" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1">
+                    <mxGeometry x="510" y="100" width="90" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="Postgres" style="shape=card;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1">
+                    <mxGeometry x="650" y="140" width="80" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="" style="curved=1;endArrow=blockThin;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endFill=0;" edge="1" parent="1" source="6" target="9">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="490" y="300" as="sourcePoint"/>
+                        <mxPoint x="320" y="320" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="550" y="240"/>
+                            <mxPoint x="490" y="250"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="8" value="NEXT" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;gradientColor=#ea6b66;strokeColor=#b85450;" vertex="1" parent="1">
+                    <mxGeometry x="485" y="230" width="60" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#FFFF00;endArrow=blockThin;endFill=0;" edge="1" parent="1" source="9" target="10">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="Web-InterFace" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#8D96A3;strokeColor=#000000;gradientColor=#000000;" vertex="1" parent="1">
+                    <mxGeometry x="260" y="320" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="JavaScript arranges the already calculated data according to the preshabrod" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fa6800;strokeColor=#C73500;fontColor=#000000;" vertex="1" parent="1">
+                    <mxGeometry x="245" y="440" width="150" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" value="Carries out calculations (migration to HASKEll is possible)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1">
+                    <mxGeometry x="340" y="30" width="145" height="50" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
