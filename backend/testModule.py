@@ -1,3 +1,8 @@
+"""
+    This file is only for testing modules or algorithms.
+    It does not carry any semantic load.
+"""
+
 import json
 
 with open('modelName.json') as model:
