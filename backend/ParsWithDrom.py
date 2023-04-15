@@ -2,10 +2,14 @@ import requests
 from bs4 import BeautifulSoup
 from json import load, dump
 
+
 """
     Calculation formula:
         The average value is the arithmetic mean, which is calculated by adding a set of 
         numbers and then dividing the resulting sum by their number.
+        
+    At the development stage, the project will contain many temporary solutions, 
+    which will soon be replaced by improved versions.        
 """
 
 class GetBaisData:
@@ -46,6 +50,8 @@ class GetBaisData:
         """
             This function will give out the names of the models,
             they are needed to automatically substitute their names in the url
+        
+            return object with urls on model auto
         """
         
         # self.response(url="https://auto.drom.ru/hyundai/all/")
@@ -70,19 +76,19 @@ class GetBaisData:
 
             if din is True:
                 modelName = modelName.replace(' ', ' ')
-                print(modelName)
 
             name.append(
                 {
-                    model:modelName.replace(',', '').lower().split(' ')[0]
+                    'url':f"https://auto.drom.ru/{model.lower()}/{modelName.replace(',', '').lower().split(' ')[0]}"
                 }
             )
 
-        print(name)
-
-        with open('modelName.json', 'w') as model:
+        with open(f'{model}.json', 'w') as model:
             dump(name, model, indent=2, ensure_ascii=False)
 
+        return name
+        ###############################################################
+        
     def getPriсeName(self):
         """
             Collects Make and Model of Auto and their Aftermarket Price
@@ -102,9 +108,44 @@ class GetBaisData:
 
             print(price)
 
+    def getYearsIssue(self, generation='generation1/restyling0/'):
+        """
+            Method that will fetch pages of generations of models of a certain brand, 
+            a temporary solution is taken in the default parameter "generation" 
+        """
+
+        ##########
+        model = "toyota"        
+        marka = "mark ||"        
+        ##########
+
+        # It is necessary to check the generations, that is, it will be necessary to somehow 
+        # find out which is the smallest and which is the largest generation for a particular car model
+        with open('test.html') as file:
+            src = file.read()
+
+        # soup = BeautifulSoup(self.response(url=self.response(f"https://auto.drom.ru/hyundai/solaris/{generation}")), 'lxml')
+        
+        soup = BeautifulSoup(src, 'lxml')
+
+        bichVar = []
+        for price in soup.find_all('a', class_='css-xb5nz8 e1huvdhj1'):
+            intPrice = int(price.find('span', class_='css-46itwz e162wx9x0').text.replace("₽", "").replace(" ", ''))
+            bichVar.append(
+                {
+                    marka: [
+                        model,
+                        generation,
+                        intPrice
+                    ]
+                }
+            )
+            
+        print(bichVar)
+
+        return bichVar
+
 if __name__ == '__main__':
     star = GetBaisData()
     # star.response(url="https://auto.drom.ru/hyundai/all/")
-    # star.getPriсeName()
-    star.getListAutoModel()
-    
+    star.getYearsIssue()
