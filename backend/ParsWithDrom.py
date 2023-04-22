@@ -33,20 +33,25 @@ class GetBaisData:
             Takes links and the name of the brand of the car for further parsing
         """
         
-        with open('test.html') as file:
-            src = file.read()
-
-        soup = BeautifulSoup(src, 'lxml')
+        soup = BeautifulSoup(self.response(url='https://drom.ru'), 'lxml')
 
         marki = soup.find('div', class_='css-1f36sr9 e1m0rp604').find_all('a')
+        
+        clad = []
         for i in marki:
             if i.text == "Прочие авто":
                 break
             elif i.text == "Поиск объявлений":
                 continue
-            print(i.text, i.get('href'))
+            clad.append(
+                {
+                    i.text:i.get('href')
+                }
+            )
+        
+        return clad
 
-    def getListAutoModel(self, model='Hyundai'):
+    def getListAutoModel(self, model, urlMod):
         """
             This function will give out the names of the models,
             they are needed to automatically substitute their names in the url
@@ -54,11 +59,7 @@ class GetBaisData:
             return object with urls on model auto
         """
         
-        # self.response(url="https://auto.drom.ru/hyundai/all/")
-        with open('test.html') as file:
-            src = file.read()
-
-        soup = BeautifulSoup(src, 'lxml')
+        soup = BeautifulSoup(self.response(urlMod), 'lxml')
 
         modelUrl = soup.find('a', class_='css-aux21u e1px31z30')['href']
 
@@ -83,8 +84,8 @@ class GetBaisData:
                 }
             )
 
-        with open(f'{model}.json', 'w') as model:
-            dump(name, model, indent=2, ensure_ascii=False)
+        # with open(f'{model}.json', 'w') as model:
+        #     dump(name, model, indent=2, ensure_ascii=False)
 
         return name
         ###############################################################
@@ -95,57 +96,48 @@ class GetBaisData:
         """
         with open('test.html') as file:
             src = file.read()
+        
+        # self.response("")
 
         soup = BeautifulSoup(src, 'lxml')
 
         c = 0
         carts = soup.find_all('a', class_='css-xb5nz8 e1huvdhj1')
         for i in carts:
-            # print(i.text)
             c+=1
-            model = i.find('span').text
             price = int(i.find('span', {"data-ftid":"bull_price"}).text.replace(' ', ''))
 
             print(price)
 
-    def getYearsIssue(self, generation='generation1/restyling0/'):
+    def getYearsIssue(self, controlURL: str):
         """
-            Method that will fetch pages of generations of models of a certain brand, 
-            a temporary solution is taken in the default parameter "generation" 
+            A function that iterates over generations and returns lists of end links
         """
-
-        ##########
-        model = "toyota"        
-        marka = "mark ||"        
-        ##########
-
-        # It is necessary to check the generations, that is, it will be necessary to somehow 
-        # find out which is the smallest and which is the largest generation for a particular car model
-        with open('test.html') as file:
-            src = file.read()
-
-        # soup = BeautifulSoup(self.response(url=self.response(f"https://auto.drom.ru/hyundai/solaris/{generation}")), 'lxml')
         
-        soup = BeautifulSoup(src, 'lxml')
+        bas = []
+        for generation in range(1, 3 + 1):
+            statusGeneration = requests.get(controlURL + f"/generation{generation}/restyling0/").status_code
+            if statusGeneration != 200:
+                break
+            for restyling in range(3):
+                green = controlURL + f"/generation{generation}/restyling{restyling}/"
+                fullUrl = requests.get(green).status_code
+                if fullUrl != 200:
+                    break
+                bas.append(green)
 
-        bichVar = []
-        for price in soup.find_all('a', class_='css-xb5nz8 e1huvdhj1'):
-            intPrice = int(price.find('span', class_='css-46itwz e162wx9x0').text.replace("₽", "").replace(" ", ''))
-            bichVar.append(
-                {
-                    marka: [
-                        model,
-                        generation,
-                        intPrice
-                    ]
-                }
-            )
-            
-        print(bichVar)
-
-        return bichVar
+        print(bas)
 
 if __name__ == '__main__':
     star = GetBaisData()
-    # star.response(url="https://auto.drom.ru/hyundai/all/")
-    star.getYearsIssue()
+
+    count = 0    
+    for i in star.parsignRootPage():
+        count += 1
+        for urlYear in star.getListAutoModel(*i.keys(), *i.values()):
+            star.getYearsIssue("https://auto.drom.ru/audi/a1")
+
+        if count == 1:
+            break
+
+    # star.getYearsIssue("https://auto.drom.ru/audi/a1")
