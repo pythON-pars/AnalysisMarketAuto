@@ -90,25 +90,6 @@ class GetBaisData:
         return name
         ###############################################################
         
-    def getPriсeName(self):
-        """
-            Collects Make and Model of Auto and their Aftermarket Price
-        """
-        with open('test.html') as file:
-            src = file.read()
-        
-        # self.response("")
-
-        soup = BeautifulSoup(src, 'lxml')
-
-        c = 0
-        carts = soup.find_all('a', class_='css-xb5nz8 e1huvdhj1')
-        for i in carts:
-            c+=1
-            price = int(i.find('span', {"data-ftid":"bull_price"}).text.replace(' ', ''))
-
-            print(price)
-
     def getYearsIssue(self, controlURL: str):
         """
             A function that iterates over generations and returns lists of end links
@@ -126,18 +107,37 @@ class GetBaisData:
                     break
                 bas.append(green)
 
-        print(bas)
+        return bas
+
+    def getPriсeName(self, url):
+        """
+            Collects Make and Model of Auto and their Aftermarket Price
+        """
+        
+        soup = BeautifulSoup(self.response(url), 'lxml')
+
+        c = 0
+        carts = soup.find_all('a', class_='css-xb5nz8 e1huvdhj1')
+        for i in carts:
+            c+=1
+            price = int(i.find('span', {"data-ftid":"bull_price"}).text.replace(' ', ''))
+
+            print(price)
 
 if __name__ == '__main__':
     star = GetBaisData()
 
-    count = 0    
+    count = 0
     for i in star.parsignRootPage():
-        count += 1
         for urlYear in star.getListAutoModel(*i.keys(), *i.values()):
-            star.getYearsIssue("https://auto.drom.ru/audi/a1")
+            for i in star.getYearsIssue(urlYear['url']):
+                print(i)
+                star.getPriсeName(i)
+                count += 1
 
         if count == 1:
             break
 
-    # star.getYearsIssue("https://auto.drom.ru/audi/a1")
+    # for i in star.getYearsIssue("https://auto.drom.ru/audi/a1"):
+    #     print(i)
+    #     star.getPriсeName(i)
