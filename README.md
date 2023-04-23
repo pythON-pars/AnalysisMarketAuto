@@ -10,3 +10,8 @@ ___
 ## Architecture
 To view the architecture.drawio, you need to install the drawio extension in Vcode
 ___
+# Small notes
+At the time of the existence of this header, the code is written synchronously, meaning that the code that is in python collects data on the prices of the secondary car market in the Russian Federation.
+
+After the synchronous data collection code is complete, i.e. without having more than two nested loops and other bad examples.
+Further, the code will be rewritten under aiohttp - so, if I'm not mistaken.

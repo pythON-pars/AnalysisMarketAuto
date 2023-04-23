@@ -1,7 +1,7 @@
 import requests
 from bs4 import BeautifulSoup
-from json import load, dump
-
+from getPrice.mathTask import ArithmeticMean
+from json import dump, load
 
 """
     Calculation formula:
@@ -14,7 +14,7 @@ from json import load, dump
 
 class GetBaisData:
     def __init__(self) -> None:
-        pass
+        self.arithmetic = ArithmeticMean()
 
     def response(self, url='https://www.drom.ru/'):
         """
@@ -61,9 +61,11 @@ class GetBaisData:
         
         soup = BeautifulSoup(self.response(urlMod), 'lxml')
 
-        modelUrl = soup.find('a', class_='css-aux21u e1px31z30')['href']
-
-        soup = BeautifulSoup(self.response(url=modelUrl), 'lxml')
+        modelUrl = soup.find('a', class_='css-aux21u e1px31z30')
+        if modelUrl is None:
+            return None, None
+        
+        soup = BeautifulSoup(self.response(url=modelUrl['href']), 'lxml')
 
         name = []
         for lisstName in soup.find_all('div', class_='esy1m7g6'):
@@ -84,10 +86,7 @@ class GetBaisData:
                 }
             )
 
-        # with open(f'{model}.json', 'w') as model:
-        #     dump(name, model, indent=2, ensure_ascii=False)
-
-        return name
+        return name, model.lower()
         ###############################################################
         
     def getYearsIssue(self, controlURL: str):
@@ -118,26 +117,37 @@ class GetBaisData:
 
         c = 0
         carts = soup.find_all('a', class_='css-xb5nz8 e1huvdhj1')
+        priceList = []
         for i in carts:
             c+=1
             price = int(i.find('span', {"data-ftid":"bull_price"}).text.replace(' ', ''))
+            priceList.append(price)
 
-            print(price)
+        s = self.arithmetic.mild(priceList)
+        print(s)
 
 if __name__ == '__main__':
     star = GetBaisData()
 
     count = 0
+    sprintData = []
     for i in star.parsignRootPage():
-        for urlYear in star.getListAutoModel(*i.keys(), *i.values()):
-            for i in star.getYearsIssue(urlYear['url']):
-                print(i)
-                star.getPriсeName(i)
-                count += 1
+        print(i)
+        objectNon, model = star.getListAutoModel(*i.keys(), *i.values())
+
+        sprintData.append(
+            {
+                model: objectNon                   
+            }
+        )
+        
+            # for i in star.getYearsIssue(urlYear['url']):
+            #     print(i)
+            #     star.getPriсeName(i)
+            #     count += 1
 
         if count == 1:
             break
 
-    # for i in star.getYearsIssue("https://auto.drom.ru/audi/a1"):
-    #     print(i)
-    #     star.getPriсeName(i)
+    with open(f'backend/ModelStore/AllUrlsModel.json', 'w') as model:
+        dump(sprintData, model, indent=2, ensure_ascii=False)

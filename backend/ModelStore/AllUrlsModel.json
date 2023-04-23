@@ -1,0 +1,3589 @@
+[
+  {
+    "audi": [
+      {
+        "url": "https://auto.drom.ru/audi/a6"
+      },
+      {
+        "url": "https://auto.drom.ru/audi/a4"
+      },
+      {
+        "url": "https://auto.drom.ru/audi/q7"
+      },
+      {
+        "url": "https://auto.drom.ru/audi/q5"
+      },
+      {
+        "url": "https://auto.drom.ru/audi/a3"
+      },
+      {
+        "url": "https://auto.drom.ru/audi/a5"
+      },
+      {
+        "url": "https://auto.drom.ru/audi/a8"
+      },
+      {
+        "url": "https://auto.drom.ru/audi/q3"
+      },
+      {
+        "url": "https://auto.drom.ru/audi/80"
+      },
+      {
+        "url": "https://auto.drom.ru/audi/100"
+      },
+      {
+        "url": "https://auto.drom.ru/audi/a7"
+      },
+      {
+        "url": "https://auto.drom.ru/audi/q8"
+      },
+      {
+        "url": "https://auto.drom.ru/audi/a6"
+      },
+      {
+        "url": "https://auto.drom.ru/audi/tt"
+      },
+      {
+        "url": "https://auto.drom.ru/audi/a1"
+      },
+      {
+        "url": "https://auto.drom.ru/audi/e-tron"
+      },
+      {
+        "url": "https://auto.drom.ru/audi/a4"
+      },
+      {
+        "url": "https://auto.drom.ru/audi/q5"
+      },
+      {
+        "url": "https://auto.drom.ru/audi/q5"
+      },
+      {
+        "url": "https://auto.drom.ru/audi/s5"
+      }
+    ]
+  },
+  {
+    "bmw": [
+      {
+        "url": "https://auto.drom.ru/bmw/5-series"
+      },
+      {
+        "url": "https://auto.drom.ru/bmw/x5"
+      },
+      {
+        "url": "https://auto.drom.ru/bmw/3-series"
+      },
+      {
+        "url": "https://auto.drom.ru/bmw/x6"
+      },
+      {
+        "url": "https://auto.drom.ru/bmw/x3"
+      },
+      {
+        "url": "https://auto.drom.ru/bmw/7-series"
+      },
+      {
+        "url": "https://auto.drom.ru/bmw/x1"
+      },
+      {
+        "url": "https://auto.drom.ru/bmw/1-series"
+      },
+      {
+        "url": "https://auto.drom.ru/bmw/x7"
+      },
+      {
+        "url": "https://auto.drom.ru/bmw/x4"
+      },
+      {
+        "url": "https://auto.drom.ru/bmw/4-series"
+      },
+      {
+        "url": "https://auto.drom.ru/bmw/6-series"
+      },
+      {
+        "url": "https://auto.drom.ru/bmw/x2"
+      },
+      {
+        "url": "https://auto.drom.ru/bmw/5-series"
+      },
+      {
+        "url": "https://auto.drom.ru/bmw/3-series"
+      },
+      {
+        "url": "https://auto.drom.ru/bmw/z4"
+      },
+      {
+        "url": "https://auto.drom.ru/bmw/i3"
+      },
+      {
+        "url": "https://auto.drom.ru/bmw/2-series"
+      },
+      {
+        "url": "https://auto.drom.ru/bmw/8-series"
+      },
+      {
+        "url": "https://auto.drom.ru/bmw/m5"
+      }
+    ]
+  },
+  {
+    "daihatsu": [
+      {
+        "url": "https://auto.drom.ru/daihatsu/move"
+      },
+      {
+        "url": "https://auto.drom.ru/daihatsu/terios"
+      },
+      {
+        "url": "https://auto.drom.ru/daihatsu/mira"
+      },
+      {
+        "url": "https://auto.drom.ru/daihatsu/mira"
+      },
+      {
+        "url": "https://auto.drom.ru/daihatsu/boon"
+      },
+      {
+        "url": "https://auto.drom.ru/daihatsu/hijet"
+      },
+      {
+        "url": "https://auto.drom.ru/daihatsu/tanto"
+      },
+      {
+        "url": "https://auto.drom.ru/daihatsu/terios"
+      },
+      {
+        "url": "https://auto.drom.ru/daihatsu/yrv"
+      },
+      {
+        "url": "https://auto.drom.ru/daihatsu/thor"
+      },
+      {
+        "url": "https://auto.drom.ru/daihatsu/be-go"
+      },
+      {
+        "url": "https://auto.drom.ru/daihatsu/rocky"
+      },
+      {
+        "url": "https://auto.drom.ru/daihatsu/pyzar"
+      },
+      {
+        "url": "https://auto.drom.ru/daihatsu/sonica"
+      },
+      {
+        "url": "https://auto.drom.ru/daihatsu/storia"
+      },
+      {
+        "url": "https://auto.drom.ru/daihatsu/atrai"
+      },
+      {
+        "url": "https://auto.drom.ru/daihatsu/move"
+      },
+      {
+        "url": "https://auto.drom.ru/daihatsu/wake"
+      },
+      {
+        "url": "https://auto.drom.ru/daihatsu/esse"
+      },
+      {
+        "url": "https://auto.drom.ru/daihatsu/cast"
+      }
+    ]
+  },
+  {
+    "ford": [
+      {
+        "url": "https://auto.drom.ru/ford/focus"
+      },
+      {
+        "url": "https://auto.drom.ru/ford/mondeo"
+      },
+      {
+        "url": "https://auto.drom.ru/ford/kuga"
+      },
+      {
+        "url": "https://auto.drom.ru/ford/fusion"
+      },
+      {
+        "url": "https://auto.drom.ru/ford/fiesta"
+      },
+      {
+        "url": "https://auto.drom.ru/ford/explorer"
+      },
+      {
+        "url": "https://auto.drom.ru/ford/c-max"
+      },
+      {
+        "url": "https://auto.drom.ru/ford/escape"
+      },
+      {
+        "url": "https://auto.drom.ru/ford/mustang"
+      },
+      {
+        "url": "https://auto.drom.ru/ford/ecosport"
+      },
+      {
+        "url": "https://auto.drom.ru/ford/ranger"
+      },
+      {
+        "url": "https://auto.drom.ru/ford/s-max"
+      },
+      {
+        "url": "https://auto.drom.ru/ford/tourneo"
+      },
+      {
+        "url": "https://auto.drom.ru/ford/galaxy"
+      },
+      {
+        "url": "https://auto.drom.ru/ford/f150"
+      },
+      {
+        "url": "https://auto.drom.ru/ford/maverick"
+      },
+      {
+        "url": "https://auto.drom.ru/ford/escort"
+      },
+      {
+        "url": "https://auto.drom.ru/ford/tourneo"
+      },
+      {
+        "url": "https://auto.drom.ru/ford/scorpio"
+      },
+      {
+        "url": "https://auto.drom.ru/ford/sierra"
+      }
+    ]
+  },
+  {
+    "honda": [
+      {
+        "url": "https://auto.drom.ru/honda/fit"
+      },
+      {
+        "url": "https://auto.drom.ru/honda/freed"
+      },
+      {
+        "url": "https://auto.drom.ru/honda/accord"
+      },
+      {
+        "url": "https://auto.drom.ru/honda/cr-v"
+      },
+      {
+        "url": "https://auto.drom.ru/honda/vezel"
+      },
+      {
+        "url": "https://auto.drom.ru/honda/stepwgn"
+      },
+      {
+        "url": "https://auto.drom.ru/honda/fit"
+      },
+      {
+        "url": "https://auto.drom.ru/honda/civic"
+      },
+      {
+        "url": "https://auto.drom.ru/honda/insight"
+      },
+      {
+        "url": "https://auto.drom.ru/honda/shuttle"
+      },
+      {
+        "url": "https://auto.drom.ru/honda/stream"
+      },
+      {
+        "url": "https://auto.drom.ru/honda/freed"
+      },
+      {
+        "url": "https://auto.drom.ru/honda/hr-v"
+      },
+      {
+        "url": "https://auto.drom.ru/honda/odyssey"
+      },
+      {
+        "url": "https://auto.drom.ru/honda/n-wgn"
+      },
+      {
+        "url": "https://auto.drom.ru/honda/civic"
+      },
+      {
+        "url": "https://auto.drom.ru/honda/torneo"
+      },
+      {
+        "url": "https://auto.drom.ru/honda/airwave"
+      },
+      {
+        "url": "https://auto.drom.ru/honda/n-box"
+      },
+      {
+        "url": "https://auto.drom.ru/honda/partner"
+      }
+    ]
+  },
+  {
+    "hyundai": [
+      {
+        "url": "https://auto.drom.ru/hyundai/solaris"
+      },
+      {
+        "url": "https://auto.drom.ru/hyundai/santa"
+      },
+      {
+        "url": "https://auto.drom.ru/hyundai/tucson"
+      },
+      {
+        "url": "https://auto.drom.ru/hyundai/creta"
+      },
+      {
+        "url": "https://auto.drom.ru/hyundai/sonata"
+      },
+      {
+        "url": "https://auto.drom.ru/hyundai/accent"
+      },
+      {
+        "url": "https://auto.drom.ru/hyundai/elantra"
+      },
+      {
+        "url": "https://auto.drom.ru/hyundai/ix35"
+      },
+      {
+        "url": "https://auto.drom.ru/hyundai/getz"
+      },
+      {
+        "url": "https://auto.drom.ru/hyundai/palisade"
+      },
+      {
+        "url": "https://auto.drom.ru/hyundai/grand"
+      },
+      {
+        "url": "https://auto.drom.ru/hyundai/i30"
+      },
+      {
+        "url": "https://auto.drom.ru/hyundai/i40"
+      },
+      {
+        "url": "https://auto.drom.ru/hyundai/staria"
+      },
+      {
+        "url": "https://auto.drom.ru/hyundai/starex"
+      },
+      {
+        "url": "https://auto.drom.ru/hyundai/avante"
+      },
+      {
+        "url": "https://auto.drom.ru/hyundai/h1"
+      },
+      {
+        "url": "https://auto.drom.ru/hyundai/matrix"
+      },
+      {
+        "url": "https://auto.drom.ru/hyundai/santa"
+      },
+      {
+        "url": "https://auto.drom.ru/hyundai/terracan"
+      }
+    ]
+  },
+  {
+    "infiniti": [
+      {
+        "url": "https://auto.drom.ru/infiniti/fx35"
+      },
+      {
+        "url": "https://auto.drom.ru/infiniti/fx37"
+      },
+      {
+        "url": "https://auto.drom.ru/infiniti/qx56"
+      },
+      {
+        "url": "https://auto.drom.ru/infiniti/qx80"
+      },
+      {
+        "url": "https://auto.drom.ru/infiniti/qx50"
+      },
+      {
+        "url": "https://auto.drom.ru/infiniti/qx70"
+      },
+      {
+        "url": "https://auto.drom.ru/infiniti/q50"
+      },
+      {
+        "url": "https://auto.drom.ru/infiniti/qx60"
+      },
+      {
+        "url": "https://auto.drom.ru/infiniti/m35"
+      },
+      {
+        "url": "https://auto.drom.ru/infiniti/fx45"
+      },
+      {
+        "url": "https://auto.drom.ru/infiniti/ex35"
+      },
+      {
+        "url": "https://auto.drom.ru/infiniti/g35"
+      },
+      {
+        "url": "https://auto.drom.ru/infiniti/fx50"
+      },
+      {
+        "url": "https://auto.drom.ru/infiniti/ex25"
+      },
+      {
+        "url": "https://auto.drom.ru/infiniti/g25"
+      },
+      {
+        "url": "https://auto.drom.ru/infiniti/m37"
+      },
+      {
+        "url": "https://auto.drom.ru/infiniti/jx35"
+      },
+      {
+        "url": "https://auto.drom.ru/infiniti/fx30d"
+      },
+      {
+        "url": "https://auto.drom.ru/infiniti/g37"
+      },
+      {
+        "url": "https://auto.drom.ru/infiniti/q30"
+      }
+    ]
+  },
+  {
+    "kia": [
+      {
+        "url": "https://auto.drom.ru/kia/rio"
+      },
+      {
+        "url": "https://auto.drom.ru/kia/sportage"
+      },
+      {
+        "url": "https://auto.drom.ru/kia/ceed"
+      },
+      {
+        "url": "https://auto.drom.ru/kia/sorento"
+      },
+      {
+        "url": "https://auto.drom.ru/kia/cerato"
+      },
+      {
+        "url": "https://auto.drom.ru/kia/optima"
+      },
+      {
+        "url": "https://auto.drom.ru/kia/k5"
+      },
+      {
+        "url": "https://auto.drom.ru/kia/soul"
+      },
+      {
+        "url": "https://auto.drom.ru/kia/rio"
+      },
+      {
+        "url": "https://auto.drom.ru/kia/carnival"
+      },
+      {
+        "url": "https://auto.drom.ru/kia/seltos"
+      },
+      {
+        "url": "https://auto.drom.ru/kia/picanto"
+      },
+      {
+        "url": "https://auto.drom.ru/kia/spectra"
+      },
+      {
+        "url": "https://auto.drom.ru/kia/mohave"
+      },
+      {
+        "url": "https://auto.drom.ru/kia/k3"
+      },
+      {
+        "url": "https://auto.drom.ru/kia/stinger"
+      },
+      {
+        "url": "https://auto.drom.ru/kia/magentis"
+      },
+      {
+        "url": "https://auto.drom.ru/kia/proceed"
+      },
+      {
+        "url": "https://auto.drom.ru/kia/venga"
+      },
+      {
+        "url": "https://auto.drom.ru/kia/forte"
+      }
+    ]
+  },
+  {
+    "land rover": [
+      {
+        "url": "https://auto.drom.ru/land rover/rover"
+      },
+      {
+        "url": "https://auto.drom.ru/land rover/rover"
+      },
+      {
+        "url": "https://auto.drom.ru/land rover/rover"
+      },
+      {
+        "url": "https://auto.drom.ru/land rover/rover"
+      },
+      {
+        "url": "https://auto.drom.ru/land rover/rover"
+      },
+      {
+        "url": "https://auto.drom.ru/land rover/rover"
+      },
+      {
+        "url": "https://auto.drom.ru/land rover/rover"
+      },
+      {
+        "url": "https://auto.drom.ru/land rover/rover"
+      }
+    ]
+  },
+  {
+    "lexus": [
+      {
+        "url": "https://auto.drom.ru/lexus/rx350"
+      },
+      {
+        "url": "https://auto.drom.ru/lexus/rx300"
+      },
+      {
+        "url": "https://auto.drom.ru/lexus/lx570"
+      },
+      {
+        "url": "https://auto.drom.ru/lexus/gx460"
+      },
+      {
+        "url": "https://auto.drom.ru/lexus/rx450h"
+      },
+      {
+        "url": "https://auto.drom.ru/lexus/rx330"
+      },
+      {
+        "url": "https://auto.drom.ru/lexus/ct200h"
+      },
+      {
+        "url": "https://auto.drom.ru/lexus/nx200"
+      },
+      {
+        "url": "https://auto.drom.ru/lexus/gx470"
+      },
+      {
+        "url": "https://auto.drom.ru/lexus/es250"
+      },
+      {
+        "url": "https://auto.drom.ru/lexus/is250"
+      },
+      {
+        "url": "https://auto.drom.ru/lexus/rx200t"
+      },
+      {
+        "url": "https://auto.drom.ru/lexus/gs300"
+      },
+      {
+        "url": "https://auto.drom.ru/lexus/lx470"
+      },
+      {
+        "url": "https://auto.drom.ru/lexus/rx270"
+      },
+      {
+        "url": "https://auto.drom.ru/lexus/lx450d"
+      },
+      {
+        "url": "https://auto.drom.ru/lexus/rx400h"
+      },
+      {
+        "url": "https://auto.drom.ru/lexus/nx200t"
+      },
+      {
+        "url": "https://auto.drom.ru/lexus/gs350"
+      },
+      {
+        "url": "https://auto.drom.ru/lexus/nx300h"
+      }
+    ]
+  },
+  {
+    "mazda": [
+      {
+        "url": "https://auto.drom.ru/mazda/mazda6"
+      },
+      {
+        "url": "https://auto.drom.ru/mazda/cx-5"
+      },
+      {
+        "url": "https://auto.drom.ru/mazda/mazda3"
+      },
+      {
+        "url": "https://auto.drom.ru/mazda/demio"
+      },
+      {
+        "url": "https://auto.drom.ru/mazda/axela"
+      },
+      {
+        "url": "https://auto.drom.ru/mazda/cx-7"
+      },
+      {
+        "url": "https://auto.drom.ru/mazda/familia"
+      },
+      {
+        "url": "https://auto.drom.ru/mazda/mpv"
+      },
+      {
+        "url": "https://auto.drom.ru/mazda/premacy"
+      },
+      {
+        "url": "https://auto.drom.ru/mazda/bongo"
+      },
+      {
+        "url": "https://auto.drom.ru/mazda/capella"
+      },
+      {
+        "url": "https://auto.drom.ru/mazda/cx-3"
+      },
+      {
+        "url": "https://auto.drom.ru/mazda/cx-4"
+      },
+      {
+        "url": "https://auto.drom.ru/mazda/bongo"
+      },
+      {
+        "url": "https://auto.drom.ru/mazda/atenza"
+      },
+      {
+        "url": "https://auto.drom.ru/mazda/cx-9"
+      },
+      {
+        "url": "https://auto.drom.ru/mazda/tribute"
+      },
+      {
+        "url": "https://auto.drom.ru/mazda/626"
+      },
+      {
+        "url": "https://auto.drom.ru/mazda/familia"
+      },
+      {
+        "url": "https://auto.drom.ru/mazda/cx-8"
+      }
+    ]
+  },
+  {
+    "mercedes-benz": [
+      {
+        "url": "https://auto.drom.ru/mercedes-benz/e-class"
+      },
+      {
+        "url": "https://auto.drom.ru/mercedes-benz/c-class"
+      },
+      {
+        "url": "https://auto.drom.ru/mercedes-benz/s-class"
+      },
+      {
+        "url": "https://auto.drom.ru/mercedes-benz/m-class"
+      },
+      {
+        "url": "https://auto.drom.ru/mercedes-benz/gl-class"
+      },
+      {
+        "url": "https://auto.drom.ru/mercedes-benz/g-class"
+      },
+      {
+        "url": "https://auto.drom.ru/mercedes-benz/gle"
+      },
+      {
+        "url": "https://auto.drom.ru/mercedes-benz/glc"
+      },
+      {
+        "url": "https://auto.drom.ru/mercedes-benz/gls-class"
+      },
+      {
+        "url": "https://auto.drom.ru/mercedes-benz/glk-class"
+      },
+      {
+        "url": "https://auto.drom.ru/mercedes-benz/a-class"
+      },
+      {
+        "url": "https://auto.drom.ru/mercedes-benz/v-class"
+      },
+      {
+        "url": "https://auto.drom.ru/mercedes-benz/cla-class"
+      },
+      {
+        "url": "https://auto.drom.ru/mercedes-benz/gle"
+      },
+      {
+        "url": "https://auto.drom.ru/mercedes-benz/gla-class"
+      },
+      {
+        "url": "https://auto.drom.ru/mercedes-benz/vito"
+      },
+      {
+        "url": "https://auto.drom.ru/mercedes-benz/cls-class"
+      },
+      {
+        "url": "https://auto.drom.ru/mercedes-benz/glc"
+      },
+      {
+        "url": "https://auto.drom.ru/mercedes-benz/b-class"
+      },
+      {
+        "url": "https://auto.drom.ru/mercedes-benz/mercedes"
+      }
+    ]
+  },
+  {
+    "mitsubishi": []
+  },
+  {
+    "nissan": [
+      {
+        "url": "https://auto.drom.ru/nissan/x-trail"
+      },
+      {
+        "url": "https://auto.drom.ru/nissan/note"
+      },
+      {
+        "url": "https://auto.drom.ru/nissan/qashqai"
+      },
+      {
+        "url": "https://auto.drom.ru/nissan/juke"
+      },
+      {
+        "url": "https://auto.drom.ru/nissan/teana"
+      },
+      {
+        "url": "https://auto.drom.ru/nissan/leaf"
+      },
+      {
+        "url": "https://auto.drom.ru/nissan/serena"
+      },
+      {
+        "url": "https://auto.drom.ru/nissan/sunny"
+      },
+      {
+        "url": "https://auto.drom.ru/nissan/murano"
+      },
+      {
+        "url": "https://auto.drom.ru/nissan/primera"
+      },
+      {
+        "url": "https://auto.drom.ru/nissan/almera"
+      },
+      {
+        "url": "https://auto.drom.ru/nissan/ad"
+      },
+      {
+        "url": "https://auto.drom.ru/nissan/terrano"
+      },
+      {
+        "url": "https://auto.drom.ru/nissan/tiida"
+      },
+      {
+        "url": "https://auto.drom.ru/nissan/march"
+      },
+      {
+        "url": "https://auto.drom.ru/nissan/wingroad"
+      },
+      {
+        "url": "https://auto.drom.ru/nissan/patrol"
+      },
+      {
+        "url": "https://auto.drom.ru/nissan/cube"
+      },
+      {
+        "url": "https://auto.drom.ru/nissan/cefiro"
+      },
+      {
+        "url": "https://auto.drom.ru/nissan/skyline"
+      }
+    ]
+  },
+  {
+    "subaru": [
+      {
+        "url": "https://auto.drom.ru/subaru/forester"
+      },
+      {
+        "url": "https://auto.drom.ru/subaru/impreza"
+      },
+      {
+        "url": "https://auto.drom.ru/subaru/legacy"
+      },
+      {
+        "url": "https://auto.drom.ru/subaru/levorg"
+      },
+      {
+        "url": "https://auto.drom.ru/subaru/outback"
+      },
+      {
+        "url": "https://auto.drom.ru/subaru/legacy"
+      },
+      {
+        "url": "https://auto.drom.ru/subaru/xv"
+      },
+      {
+        "url": "https://auto.drom.ru/subaru/impreza"
+      },
+      {
+        "url": "https://auto.drom.ru/subaru/impreza"
+      },
+      {
+        "url": "https://auto.drom.ru/subaru/legacy"
+      },
+      {
+        "url": "https://auto.drom.ru/subaru/trezia"
+      },
+      {
+        "url": "https://auto.drom.ru/subaru/b9"
+      },
+      {
+        "url": "https://auto.drom.ru/subaru/tribeca"
+      },
+      {
+        "url": "https://auto.drom.ru/subaru/stella"
+      },
+      {
+        "url": "https://auto.drom.ru/subaru/impreza"
+      },
+      {
+        "url": "https://auto.drom.ru/subaru/r2"
+      },
+      {
+        "url": "https://auto.drom.ru/subaru/pleo"
+      },
+      {
+        "url": "https://auto.drom.ru/subaru/traviq"
+      },
+      {
+        "url": "https://auto.drom.ru/subaru/exiga"
+      },
+      {
+        "url": "https://auto.drom.ru/subaru/justy"
+      }
+    ]
+  },
+  {
+    "suzuki": [
+      {
+        "url": "https://auto.drom.ru/suzuki/grand"
+      },
+      {
+        "url": "https://auto.drom.ru/suzuki/escudo"
+      },
+      {
+        "url": "https://auto.drom.ru/suzuki/swift"
+      },
+      {
+        "url": "https://auto.drom.ru/suzuki/jimny"
+      },
+      {
+        "url": "https://auto.drom.ru/suzuki/sx4"
+      },
+      {
+        "url": "https://auto.drom.ru/suzuki/solio"
+      },
+      {
+        "url": "https://auto.drom.ru/suzuki/wagon"
+      },
+      {
+        "url": "https://auto.drom.ru/suzuki/alto"
+      },
+      {
+        "url": "https://auto.drom.ru/suzuki/vitara"
+      },
+      {
+        "url": "https://auto.drom.ru/suzuki/jimny"
+      },
+      {
+        "url": "https://auto.drom.ru/suzuki/liana"
+      },
+      {
+        "url": "https://auto.drom.ru/suzuki/hustler"
+      },
+      {
+        "url": "https://auto.drom.ru/suzuki/baleno"
+      },
+      {
+        "url": "https://auto.drom.ru/suzuki/ignis"
+      },
+      {
+        "url": "https://auto.drom.ru/suzuki/cultus"
+      },
+      {
+        "url": "https://auto.drom.ru/suzuki/jimny"
+      },
+      {
+        "url": "https://auto.drom.ru/suzuki/aerio"
+      },
+      {
+        "url": "https://auto.drom.ru/suzuki/grand"
+      },
+      {
+        "url": "https://auto.drom.ru/suzuki/every"
+      },
+      {
+        "url": "https://auto.drom.ru/suzuki/kei"
+      }
+    ]
+  },
+  {
+    "toyota": [
+      {
+        "url": "https://auto.drom.ru/toyota/camry"
+      },
+      {
+        "url": "https://auto.drom.ru/toyota/corolla"
+      },
+      {
+        "url": "https://auto.drom.ru/toyota/land"
+      },
+      {
+        "url": "https://auto.drom.ru/toyota/rav4"
+      },
+      {
+        "url": "https://auto.drom.ru/toyota/land"
+      },
+      {
+        "url": "https://auto.drom.ru/toyota/prius"
+      },
+      {
+        "url": "https://auto.drom.ru/toyota/corolla"
+      },
+      {
+        "url": "https://auto.drom.ru/toyota/vitz"
+      },
+      {
+        "url": "https://auto.drom.ru/toyota/wish"
+      },
+      {
+        "url": "https://auto.drom.ru/toyota/mark"
+      },
+      {
+        "url": "https://auto.drom.ru/toyota/harrier"
+      },
+      {
+        "url": "https://auto.drom.ru/toyota/crown"
+      },
+      {
+        "url": "https://auto.drom.ru/toyota/allion"
+      },
+      {
+        "url": "https://auto.drom.ru/toyota/c-hr"
+      },
+      {
+        "url": "https://auto.drom.ru/toyota/passo"
+      },
+      {
+        "url": "https://auto.drom.ru/toyota/caldina"
+      },
+      {
+        "url": "https://auto.drom.ru/toyota/premio"
+      },
+      {
+        "url": "https://auto.drom.ru/toyota/carina"
+      },
+      {
+        "url": "https://auto.drom.ru/toyota/voxy"
+      },
+      {
+        "url": "https://auto.drom.ru/toyota/avensis"
+      }
+    ]
+  },
+  {
+    "volkswagen": [
+      {
+        "url": "https://auto.drom.ru/volkswagen/polo"
+      },
+      {
+        "url": "https://auto.drom.ru/volkswagen/tiguan"
+      },
+      {
+        "url": "https://auto.drom.ru/volkswagen/passat"
+      },
+      {
+        "url": "https://auto.drom.ru/volkswagen/touareg"
+      },
+      {
+        "url": "https://auto.drom.ru/volkswagen/jetta"
+      },
+      {
+        "url": "https://auto.drom.ru/volkswagen/golf"
+      },
+      {
+        "url": "https://auto.drom.ru/volkswagen/passat"
+      },
+      {
+        "url": "https://auto.drom.ru/volkswagen/multivan"
+      },
+      {
+        "url": "https://auto.drom.ru/volkswagen/transporter"
+      },
+      {
+        "url": "https://auto.drom.ru/volkswagen/caravelle"
+      },
+      {
+        "url": "https://auto.drom.ru/volkswagen/amarok"
+      },
+      {
+        "url": "https://auto.drom.ru/volkswagen/caddy"
+      },
+      {
+        "url": "https://auto.drom.ru/volkswagen/golf"
+      },
+      {
+        "url": "https://auto.drom.ru/volkswagen/touran"
+      },
+      {
+        "url": "https://auto.drom.ru/volkswagen/teramont"
+      },
+      {
+        "url": "https://auto.drom.ru/volkswagen/taos"
+      },
+      {
+        "url": "https://auto.drom.ru/volkswagen/sharan"
+      },
+      {
+        "url": "https://auto.drom.ru/volkswagen/bora"
+      },
+      {
+        "url": "https://auto.drom.ru/volkswagen/beetle"
+      },
+      {
+        "url": "https://auto.drom.ru/volkswagen/id.4"
+      }
+    ]
+  },
+  {
+    "лада": [
+      {
+        "url": "https://auto.drom.ru/лада/гранта"
+      },
+      {
+        "url": "https://auto.drom.ru/лада/приора"
+      },
+      {
+        "url": "https://auto.drom.ru/лада/2114"
+      },
+      {
+        "url": "https://auto.drom.ru/лада/2107"
+      },
+      {
+        "url": "https://auto.drom.ru/лада/4x4"
+      },
+      {
+        "url": "https://auto.drom.ru/лада/калина"
+      },
+      {
+        "url": "https://auto.drom.ru/лада/веста"
+      },
+      {
+        "url": "https://auto.drom.ru/лада/2110"
+      },
+      {
+        "url": "https://auto.drom.ru/лада/2115"
+      },
+      {
+        "url": "https://auto.drom.ru/лада/2112"
+      },
+      {
+        "url": "https://auto.drom.ru/лада/нива"
+      },
+      {
+        "url": "https://auto.drom.ru/лада/2106"
+      },
+      {
+        "url": "https://auto.drom.ru/лада/2109"
+      },
+      {
+        "url": "https://auto.drom.ru/лада/нива"
+      },
+      {
+        "url": "https://auto.drom.ru/лада/21099"
+      },
+      {
+        "url": "https://auto.drom.ru/лада/ларгус"
+      },
+      {
+        "url": "https://auto.drom.ru/лада/2105"
+      },
+      {
+        "url": "https://auto.drom.ru/лада/веста"
+      },
+      {
+        "url": "https://auto.drom.ru/лада/2104"
+      },
+      {
+        "url": "https://auto.drom.ru/лада/4x4"
+      }
+    ]
+  },
+  {
+    "acura": [
+      {
+        "url": "https://auto.drom.ru/acura/mdx"
+      },
+      {
+        "url": "https://auto.drom.ru/acura/rdx"
+      },
+      {
+        "url": "https://auto.drom.ru/acura/tl"
+      },
+      {
+        "url": "https://auto.drom.ru/acura/zdx"
+      },
+      {
+        "url": "https://auto.drom.ru/acura/tsx"
+      },
+      {
+        "url": "https://auto.drom.ru/acura/tlx"
+      },
+      {
+        "url": "https://auto.drom.ru/acura/rl"
+      },
+      {
+        "url": "https://auto.drom.ru/acura/rsx"
+      },
+      {
+        "url": "https://auto.drom.ru/acura/ilx"
+      },
+      {
+        "url": "https://auto.drom.ru/acura/el"
+      },
+      {
+        "url": "https://auto.drom.ru/acura/legend"
+      }
+    ]
+  },
+  {
+    "null": null
+  },
+  {
+    "alfa romeo": [
+      {
+        "url": "https://auto.drom.ru/alfa romeo/romeo"
+      },
+      {
+        "url": "https://auto.drom.ru/alfa romeo/romeo"
+      },
+      {
+        "url": "https://auto.drom.ru/alfa romeo/romeo"
+      },
+      {
+        "url": "https://auto.drom.ru/alfa romeo/romeo"
+      },
+      {
+        "url": "https://auto.drom.ru/alfa romeo/romeo"
+      },
+      {
+        "url": "https://auto.drom.ru/alfa romeo/romeo"
+      },
+      {
+        "url": "https://auto.drom.ru/alfa romeo/romeo"
+      },
+      {
+        "url": "https://auto.drom.ru/alfa romeo/romeo"
+      },
+      {
+        "url": "https://auto.drom.ru/alfa romeo/romeo"
+      },
+      {
+        "url": "https://auto.drom.ru/alfa romeo/romeo"
+      },
+      {
+        "url": "https://auto.drom.ru/alfa romeo/romeo"
+      },
+      {
+        "url": "https://auto.drom.ru/alfa romeo/romeo"
+      },
+      {
+        "url": "https://auto.drom.ru/alfa romeo/romeo"
+      },
+      {
+        "url": "https://auto.drom.ru/alfa romeo/romeo"
+      },
+      {
+        "url": "https://auto.drom.ru/alfa romeo/romeo"
+      },
+      {
+        "url": "https://auto.drom.ru/alfa romeo/romeo"
+      }
+    ]
+  },
+  {
+    "null": null
+  },
+  {
+    "null": null
+  },
+  {
+    "null": null
+  },
+  {
+    "null": null
+  },
+  {
+    "null": null
+  },
+  {
+    "bentley": [
+      {
+        "url": "https://auto.drom.ru/bentley/continental"
+      },
+      {
+        "url": "https://auto.drom.ru/bentley/bentayga"
+      },
+      {
+        "url": "https://auto.drom.ru/bentley/flying"
+      },
+      {
+        "url": "https://auto.drom.ru/bentley/continental"
+      },
+      {
+        "url": "https://auto.drom.ru/bentley/arnage"
+      },
+      {
+        "url": "https://auto.drom.ru/bentley/azure"
+      },
+      {
+        "url": "https://auto.drom.ru/bentley/mulsanne"
+      }
+    ]
+  },
+  {
+    "brilliance": [
+      {
+        "url": "https://auto.drom.ru/brilliance/v5"
+      },
+      {
+        "url": "https://auto.drom.ru/brilliance/m2"
+      },
+      {
+        "url": "https://auto.drom.ru/brilliance/h530"
+      },
+      {
+        "url": "https://auto.drom.ru/brilliance/v3"
+      },
+      {
+        "url": "https://auto.drom.ru/brilliance/m1"
+      },
+      {
+        "url": "https://auto.drom.ru/brilliance/h230"
+      }
+    ]
+  },
+  {
+    "buick": [
+      {
+        "url": "https://auto.drom.ru/buick/encore"
+      },
+      {
+        "url": "https://auto.drom.ru/buick/regal"
+      },
+      {
+        "url": "https://auto.drom.ru/buick/cascada"
+      },
+      {
+        "url": "https://auto.drom.ru/buick/encore"
+      },
+      {
+        "url": "https://auto.drom.ru/buick/rendezvous"
+      },
+      {
+        "url": "https://auto.drom.ru/buick/riviera"
+      },
+      {
+        "url": "https://auto.drom.ru/buick/enclave"
+      },
+      {
+        "url": "https://auto.drom.ru/buick/lesabre"
+      },
+      {
+        "url": "https://auto.drom.ru/buick/park"
+      },
+      {
+        "url": "https://auto.drom.ru/buick/lacrosse"
+      }
+    ]
+  },
+  {
+    "byd": [
+      {
+        "url": "https://auto.drom.ru/byd/f3"
+      },
+      {
+        "url": "https://auto.drom.ru/byd/flyer"
+      },
+      {
+        "url": "https://auto.drom.ru/byd/tang"
+      },
+      {
+        "url": "https://auto.drom.ru/byd/song"
+      },
+      {
+        "url": "https://auto.drom.ru/byd/han"
+      },
+      {
+        "url": "https://auto.drom.ru/byd/song"
+      },
+      {
+        "url": "https://auto.drom.ru/byd/seal"
+      },
+      {
+        "url": "https://auto.drom.ru/byd/dolphin"
+      },
+      {
+        "url": "https://auto.drom.ru/byd/yuan"
+      },
+      {
+        "url": "https://auto.drom.ru/byd/yuan"
+      },
+      {
+        "url": "https://auto.drom.ru/byd/f0"
+      },
+      {
+        "url": "https://auto.drom.ru/byd/f6"
+      },
+      {
+        "url": "https://auto.drom.ru/byd/song"
+      },
+      {
+        "url": "https://auto.drom.ru/byd/qin"
+      },
+      {
+        "url": "https://auto.drom.ru/byd/yuan"
+      },
+      {
+        "url": "https://auto.drom.ru/byd/qin"
+      },
+      {
+        "url": "https://auto.drom.ru/byd/e6"
+      }
+    ]
+  },
+  {
+    "cadillac": [
+      {
+        "url": "https://auto.drom.ru/cadillac/escalade"
+      },
+      {
+        "url": "https://auto.drom.ru/cadillac/srx"
+      },
+      {
+        "url": "https://auto.drom.ru/cadillac/cts"
+      },
+      {
+        "url": "https://auto.drom.ru/cadillac/xt5"
+      },
+      {
+        "url": "https://auto.drom.ru/cadillac/bls"
+      },
+      {
+        "url": "https://auto.drom.ru/cadillac/sts"
+      },
+      {
+        "url": "https://auto.drom.ru/cadillac/xt6"
+      },
+      {
+        "url": "https://auto.drom.ru/cadillac/ats"
+      },
+      {
+        "url": "https://auto.drom.ru/cadillac/deville"
+      },
+      {
+        "url": "https://auto.drom.ru/cadillac/seville"
+      },
+      {
+        "url": "https://auto.drom.ru/cadillac/ct6"
+      },
+      {
+        "url": "https://auto.drom.ru/cadillac/xt4"
+      },
+      {
+        "url": "https://auto.drom.ru/cadillac/fleetwood"
+      },
+      {
+        "url": "https://auto.drom.ru/cadillac/ct5"
+      },
+      {
+        "url": "https://auto.drom.ru/cadillac/catera"
+      },
+      {
+        "url": "https://auto.drom.ru/cadillac/dts"
+      },
+      {
+        "url": "https://auto.drom.ru/cadillac/brougham"
+      },
+      {
+        "url": "https://auto.drom.ru/cadillac/elr"
+      },
+      {
+        "url": "https://auto.drom.ru/cadillac/xts"
+      }
+    ]
+  },
+  {
+    "changan": [
+      {
+        "url": "https://auto.drom.ru/changan/cs35"
+      },
+      {
+        "url": "https://auto.drom.ru/changan/uni-k"
+      },
+      {
+        "url": "https://auto.drom.ru/changan/cs75"
+      },
+      {
+        "url": "https://auto.drom.ru/changan/uni-v"
+      },
+      {
+        "url": "https://auto.drom.ru/changan/cs55"
+      },
+      {
+        "url": "https://auto.drom.ru/changan/cs55"
+      },
+      {
+        "url": "https://auto.drom.ru/changan/cs85"
+      },
+      {
+        "url": "https://auto.drom.ru/changan/cs35"
+      },
+      {
+        "url": "https://auto.drom.ru/changan/cs95"
+      },
+      {
+        "url": "https://auto.drom.ru/changan/cs75"
+      },
+      {
+        "url": "https://auto.drom.ru/changan/uni-t"
+      },
+      {
+        "url": "https://auto.drom.ru/changan/eado"
+      },
+      {
+        "url": "https://auto.drom.ru/changan/hunter"
+      }
+    ]
+  },
+  {
+    "chery": [
+      {
+        "url": "https://auto.drom.ru/chery/tiggo"
+      },
+      {
+        "url": "https://auto.drom.ru/chery/tiggo"
+      },
+      {
+        "url": "https://auto.drom.ru/chery/tiggo"
+      },
+      {
+        "url": "https://auto.drom.ru/chery/tiggo"
+      },
+      {
+        "url": "https://auto.drom.ru/chery/tiggo"
+      },
+      {
+        "url": "https://auto.drom.ru/chery/tiggo"
+      },
+      {
+        "url": "https://auto.drom.ru/chery/tiggo"
+      },
+      {
+        "url": "https://auto.drom.ru/chery/tiggo"
+      },
+      {
+        "url": "https://auto.drom.ru/chery/amulet"
+      },
+      {
+        "url": "https://auto.drom.ru/chery/indis"
+      },
+      {
+        "url": "https://auto.drom.ru/chery/bonus"
+      },
+      {
+        "url": "https://auto.drom.ru/chery/fora"
+      },
+      {
+        "url": "https://auto.drom.ru/chery/tiggo"
+      },
+      {
+        "url": "https://auto.drom.ru/chery/kimo"
+      },
+      {
+        "url": "https://auto.drom.ru/chery/tiggo"
+      },
+      {
+        "url": "https://auto.drom.ru/chery/very"
+      },
+      {
+        "url": "https://auto.drom.ru/chery/m11"
+      },
+      {
+        "url": "https://auto.drom.ru/chery/qq"
+      },
+      {
+        "url": "https://auto.drom.ru/chery/tiggo"
+      },
+      {
+        "url": "https://auto.drom.ru/chery/qq6"
+      }
+    ]
+  },
+  {
+    "chevrolet": [
+      {
+        "url": "https://auto.drom.ru/chevrolet/niva"
+      },
+      {
+        "url": "https://auto.drom.ru/chevrolet/cruze"
+      },
+      {
+        "url": "https://auto.drom.ru/chevrolet/lacetti"
+      },
+      {
+        "url": "https://auto.drom.ru/chevrolet/aveo"
+      },
+      {
+        "url": "https://auto.drom.ru/chevrolet/lanos"
+      },
+      {
+        "url": "https://auto.drom.ru/chevrolet/captiva"
+      },
+      {
+        "url": "https://auto.drom.ru/chevrolet/spark"
+      },
+      {
+        "url": "https://auto.drom.ru/chevrolet/tahoe"
+      },
+      {
+        "url": "https://auto.drom.ru/chevrolet/cobalt"
+      },
+      {
+        "url": "https://auto.drom.ru/chevrolet/epica"
+      },
+      {
+        "url": "https://auto.drom.ru/chevrolet/trailblazer"
+      },
+      {
+        "url": "https://auto.drom.ru/chevrolet/camaro"
+      },
+      {
+        "url": "https://auto.drom.ru/chevrolet/malibu"
+      },
+      {
+        "url": "https://auto.drom.ru/chevrolet/orlando"
+      },
+      {
+        "url": "https://auto.drom.ru/chevrolet/rezzo"
+      },
+      {
+        "url": "https://auto.drom.ru/chevrolet/nexia"
+      },
+      {
+        "url": "https://auto.drom.ru/chevrolet/volt"
+      },
+      {
+        "url": "https://auto.drom.ru/chevrolet/equinox"
+      },
+      {
+        "url": "https://auto.drom.ru/chevrolet/blazer"
+      },
+      {
+        "url": "https://auto.drom.ru/chevrolet/tracker"
+      }
+    ]
+  },
+  {
+    "chrysler": [
+      {
+        "url": "https://auto.drom.ru/chrysler/300c"
+      },
+      {
+        "url": "https://auto.drom.ru/chrysler/sebring"
+      },
+      {
+        "url": "https://auto.drom.ru/chrysler/pt"
+      },
+      {
+        "url": "https://auto.drom.ru/chrysler/voyager"
+      },
+      {
+        "url": "https://auto.drom.ru/chrysler/pacifica"
+      },
+      {
+        "url": "https://auto.drom.ru/chrysler/300m"
+      },
+      {
+        "url": "https://auto.drom.ru/chrysler/200"
+      },
+      {
+        "url": "https://auto.drom.ru/chrysler/town"
+      },
+      {
+        "url": "https://auto.drom.ru/chrysler/concorde"
+      },
+      {
+        "url": "https://auto.drom.ru/chrysler/grand"
+      },
+      {
+        "url": "https://auto.drom.ru/chrysler/crossfire"
+      },
+      {
+        "url": "https://auto.drom.ru/chrysler/intrepid"
+      },
+      {
+        "url": "https://auto.drom.ru/chrysler/cirrus"
+      },
+      {
+        "url": "https://auto.drom.ru/chrysler/neon"
+      },
+      {
+        "url": "https://auto.drom.ru/chrysler/lhs"
+      },
+      {
+        "url": "https://auto.drom.ru/chrysler/new"
+      },
+      {
+        "url": "https://auto.drom.ru/chrysler/stratus"
+      },
+      {
+        "url": "https://auto.drom.ru/chrysler/le"
+      },
+      {
+        "url": "https://auto.drom.ru/chrysler/saratoga"
+      },
+      {
+        "url": "https://auto.drom.ru/chrysler/ypsilon"
+      }
+    ]
+  },
+  {
+    "citroen": [
+      {
+        "url": "https://auto.drom.ru/citroen/c4"
+      },
+      {
+        "url": "https://auto.drom.ru/citroen/berlingo"
+      },
+      {
+        "url": "https://auto.drom.ru/citroen/c5"
+      },
+      {
+        "url": "https://auto.drom.ru/citroen/c3"
+      },
+      {
+        "url": "https://auto.drom.ru/citroen/c3"
+      },
+      {
+        "url": "https://auto.drom.ru/citroen/c5"
+      },
+      {
+        "url": "https://auto.drom.ru/citroen/c4"
+      },
+      {
+        "url": "https://auto.drom.ru/citroen/c-crosser"
+      },
+      {
+        "url": "https://auto.drom.ru/citroen/jumpy"
+      },
+      {
+        "url": "https://auto.drom.ru/citroen/c-elysee"
+      },
+      {
+        "url": "https://auto.drom.ru/citroen/spacetourer"
+      },
+      {
+        "url": "https://auto.drom.ru/citroen/ds4"
+      },
+      {
+        "url": "https://auto.drom.ru/citroen/grand"
+      },
+      {
+        "url": "https://auto.drom.ru/citroen/xsara"
+      },
+      {
+        "url": "https://auto.drom.ru/citroen/c1"
+      },
+      {
+        "url": "https://auto.drom.ru/citroen/c4"
+      },
+      {
+        "url": "https://auto.drom.ru/citroen/ds5"
+      },
+      {
+        "url": "https://auto.drom.ru/citroen/c2"
+      },
+      {
+        "url": "https://auto.drom.ru/citroen/xsara"
+      },
+      {
+        "url": "https://auto.drom.ru/citroen/ds3"
+      }
+    ]
+  },
+  {
+    "null": null
+  },
+  {
+    "dacia": [
+      {
+        "url": "https://auto.drom.ru/dacia/logan"
+      },
+      {
+        "url": "https://auto.drom.ru/dacia/duster"
+      },
+      {
+        "url": "https://auto.drom.ru/dacia/sandero"
+      },
+      {
+        "url": "https://auto.drom.ru/dacia/dokker"
+      },
+      {
+        "url": "https://auto.drom.ru/dacia/logan"
+      },
+      {
+        "url": "https://auto.drom.ru/dacia/lodgy"
+      },
+      {
+        "url": "https://auto.drom.ru/dacia/supernova"
+      },
+      {
+        "url": "https://auto.drom.ru/dacia/solenza"
+      }
+    ]
+  },
+  {
+    "null": null
+  },
+  {
+    "daewoo": [
+      {
+        "url": "https://auto.drom.ru/daewoo/nexia"
+      },
+      {
+        "url": "https://auto.drom.ru/daewoo/matiz"
+      },
+      {
+        "url": "https://auto.drom.ru/daewoo/gentra"
+      },
+      {
+        "url": "https://auto.drom.ru/daewoo/lanos"
+      },
+      {
+        "url": "https://auto.drom.ru/daewoo/winstorm"
+      },
+      {
+        "url": "https://auto.drom.ru/daewoo/lacetti"
+      },
+      {
+        "url": "https://auto.drom.ru/daewoo/espero"
+      },
+      {
+        "url": "https://auto.drom.ru/daewoo/leganza"
+      },
+      {
+        "url": "https://auto.drom.ru/daewoo/sens"
+      },
+      {
+        "url": "https://auto.drom.ru/daewoo/nubira"
+      },
+      {
+        "url": "https://auto.drom.ru/daewoo/magnus"
+      },
+      {
+        "url": "https://auto.drom.ru/daewoo/kalos"
+      },
+      {
+        "url": "https://auto.drom.ru/daewoo/damas"
+      },
+      {
+        "url": "https://auto.drom.ru/daewoo/prince"
+      },
+      {
+        "url": "https://auto.drom.ru/daewoo/tico"
+      },
+      {
+        "url": "https://auto.drom.ru/daewoo/tacuma"
+      },
+      {
+        "url": "https://auto.drom.ru/daewoo/racer"
+      },
+      {
+        "url": "https://auto.drom.ru/daewoo/lemans"
+      },
+      {
+        "url": "https://auto.drom.ru/daewoo/rezzo"
+      }
+    ]
+  },
+  {
+    "null": null
+  },
+  {
+    "datsun": [
+      {
+        "url": "https://auto.drom.ru/datsun/on-do"
+      },
+      {
+        "url": "https://auto.drom.ru/datsun/mi-do"
+      }
+    ]
+  },
+  {
+    "null": null
+  },
+  {
+    "derways": [
+      {
+        "url": "https://auto.drom.ru/derways/aurora"
+      },
+      {
+        "url": "https://auto.drom.ru/derways/shuttle"
+      },
+      {
+        "url": "https://auto.drom.ru/derways/plutus"
+      },
+      {
+        "url": "https://auto.drom.ru/derways/cowboy"
+      }
+    ]
+  },
+  {
+    "dodge": [
+      {
+        "url": "https://auto.drom.ru/dodge/ram"
+      },
+      {
+        "url": "https://auto.drom.ru/dodge/challenger"
+      },
+      {
+        "url": "https://auto.drom.ru/dodge/caliber"
+      },
+      {
+        "url": "https://auto.drom.ru/dodge/caravan"
+      },
+      {
+        "url": "https://auto.drom.ru/dodge/journey"
+      },
+      {
+        "url": "https://auto.drom.ru/dodge/stratus"
+      },
+      {
+        "url": "https://auto.drom.ru/dodge/charger"
+      },
+      {
+        "url": "https://auto.drom.ru/dodge/neon"
+      },
+      {
+        "url": "https://auto.drom.ru/dodge/intrepid"
+      },
+      {
+        "url": "https://auto.drom.ru/dodge/grand"
+      },
+      {
+        "url": "https://auto.drom.ru/dodge/durango"
+      },
+      {
+        "url": "https://auto.drom.ru/dodge/avenger"
+      },
+      {
+        "url": "https://auto.drom.ru/dodge/nitro"
+      },
+      {
+        "url": "https://auto.drom.ru/dodge/stealth"
+      },
+      {
+        "url": "https://auto.drom.ru/dodge/magnum"
+      },
+      {
+        "url": "https://auto.drom.ru/dodge/viper"
+      },
+      {
+        "url": "https://auto.drom.ru/dodge/dynasty"
+      },
+      {
+        "url": "https://auto.drom.ru/dodge/dodge"
+      },
+      {
+        "url": "https://auto.drom.ru/dodge/dart"
+      }
+    ]
+  },
+  {
+    "dongfeng": [
+      {
+        "url": "https://auto.drom.ru/dongfeng/df6"
+      },
+      {
+        "url": "https://auto.drom.ru/dongfeng/580"
+      },
+      {
+        "url": "https://auto.drom.ru/dongfeng/h30"
+      },
+      {
+        "url": "https://auto.drom.ru/dongfeng/ax7"
+      },
+      {
+        "url": "https://auto.drom.ru/dongfeng/s30"
+      },
+      {
+        "url": "https://auto.drom.ru/dongfeng/fengon"
+      },
+      {
+        "url": "https://auto.drom.ru/dongfeng/mpv"
+      },
+      {
+        "url": "https://auto.drom.ru/dongfeng/aeolus"
+      }
+    ]
+  },
+  {
+    "null": null
+  },
+  {
+    "exeed": [
+      {
+        "url": "https://auto.drom.ru/exeed/txl"
+      },
+      {
+        "url": "https://auto.drom.ru/exeed/vx"
+      },
+      {
+        "url": "https://auto.drom.ru/exeed/lx"
+      }
+    ]
+  },
+  {
+    "faw": [
+      {
+        "url": "https://auto.drom.ru/faw/bestune"
+      },
+      {
+        "url": "https://auto.drom.ru/faw/besturn"
+      },
+      {
+        "url": "https://auto.drom.ru/faw/besturn"
+      },
+      {
+        "url": "https://auto.drom.ru/faw/besturn"
+      },
+      {
+        "url": "https://auto.drom.ru/faw/v5"
+      },
+      {
+        "url": "https://auto.drom.ru/faw/vita"
+      },
+      {
+        "url": "https://auto.drom.ru/faw/oley"
+      },
+      {
+        "url": "https://auto.drom.ru/faw/bestune"
+      },
+      {
+        "url": "https://auto.drom.ru/faw/bestune"
+      },
+      {
+        "url": "https://auto.drom.ru/faw/jinn"
+      },
+      {
+        "url": "https://auto.drom.ru/faw/v2"
+      },
+      {
+        "url": "https://auto.drom.ru/faw/cargovan"
+      }
+    ]
+  },
+  {
+    "null": null
+  },
+  {
+    "fiat": [
+      {
+        "url": "https://auto.drom.ru/fiat/albea"
+      },
+      {
+        "url": "https://auto.drom.ru/fiat/doblo"
+      },
+      {
+        "url": "https://auto.drom.ru/fiat/punto"
+      },
+      {
+        "url": "https://auto.drom.ru/fiat/linea"
+      },
+      {
+        "url": "https://auto.drom.ru/fiat/panda"
+      },
+      {
+        "url": "https://auto.drom.ru/fiat/500"
+      },
+      {
+        "url": "https://auto.drom.ru/fiat/brava"
+      },
+      {
+        "url": "https://auto.drom.ru/fiat/fullback"
+      },
+      {
+        "url": "https://auto.drom.ru/fiat/bravo"
+      },
+      {
+        "url": "https://auto.drom.ru/fiat/stilo"
+      },
+      {
+        "url": "https://auto.drom.ru/fiat/grande"
+      },
+      {
+        "url": "https://auto.drom.ru/fiat/marea"
+      },
+      {
+        "url": "https://auto.drom.ru/fiat/tipo"
+      },
+      {
+        "url": "https://auto.drom.ru/fiat/scudo"
+      },
+      {
+        "url": "https://auto.drom.ru/fiat/sedici"
+      },
+      {
+        "url": "https://auto.drom.ru/fiat/tempra"
+      },
+      {
+        "url": "https://auto.drom.ru/fiat/124"
+      },
+      {
+        "url": "https://auto.drom.ru/fiat/palio"
+      },
+      {
+        "url": "https://auto.drom.ru/fiat/500x"
+      },
+      {
+        "url": "https://auto.drom.ru/fiat/coupe"
+      }
+    ]
+  },
+  {
+    "null": null
+  },
+  {
+    "null": null
+  },
+  {
+    "gac": [
+      {
+        "url": "https://auto.drom.ru/gac/gs8"
+      },
+      {
+        "url": "https://auto.drom.ru/gac/gn8"
+      },
+      {
+        "url": "https://auto.drom.ru/gac/gs5"
+      },
+      {
+        "url": "https://auto.drom.ru/gac/aion"
+      },
+      {
+        "url": "https://auto.drom.ru/gac/trumpchi"
+      }
+    ]
+  },
+  {
+    "geely": []
+  },
+  {
+    "genesis": [
+      {
+        "url": "https://auto.drom.ru/genesis/gv80"
+      },
+      {
+        "url": "https://auto.drom.ru/genesis/g70"
+      },
+      {
+        "url": "https://auto.drom.ru/genesis/gv70"
+      },
+      {
+        "url": "https://auto.drom.ru/genesis/g80"
+      },
+      {
+        "url": "https://auto.drom.ru/genesis/g90"
+      }
+    ]
+  },
+  {
+    "gmc": [
+      {
+        "url": "https://auto.drom.ru/gmc/yukon"
+      },
+      {
+        "url": "https://auto.drom.ru/gmc/terrain"
+      },
+      {
+        "url": "https://auto.drom.ru/gmc/sierra"
+      },
+      {
+        "url": "https://auto.drom.ru/gmc/savana"
+      },
+      {
+        "url": "https://auto.drom.ru/gmc/acadia"
+      },
+      {
+        "url": "https://auto.drom.ru/gmc/jimmy"
+      },
+      {
+        "url": "https://auto.drom.ru/gmc/envoy"
+      },
+      {
+        "url": "https://auto.drom.ru/gmc/safari"
+      }
+    ]
+  },
+  {
+    "great wall": [
+      {
+        "url": "https://auto.drom.ru/great wall/wall"
+      },
+      {
+        "url": "https://auto.drom.ru/great wall/wall"
+      },
+      {
+        "url": "https://auto.drom.ru/great wall/wall"
+      },
+      {
+        "url": "https://auto.drom.ru/great wall/wall"
+      },
+      {
+        "url": "https://auto.drom.ru/great wall/wall"
+      },
+      {
+        "url": "https://auto.drom.ru/great wall/wall"
+      },
+      {
+        "url": "https://auto.drom.ru/great wall/wall"
+      },
+      {
+        "url": "https://auto.drom.ru/great wall/wall"
+      },
+      {
+        "url": "https://auto.drom.ru/great wall/wall"
+      },
+      {
+        "url": "https://auto.drom.ru/great wall/wall"
+      },
+      {
+        "url": "https://auto.drom.ru/great wall/wall"
+      },
+      {
+        "url": "https://auto.drom.ru/great wall/wall"
+      },
+      {
+        "url": "https://auto.drom.ru/great wall/wall"
+      },
+      {
+        "url": "https://auto.drom.ru/great wall/wall"
+      },
+      {
+        "url": "https://auto.drom.ru/great wall/wall"
+      },
+      {
+        "url": "https://auto.drom.ru/great wall/wall"
+      },
+      {
+        "url": "https://auto.drom.ru/great wall/wall"
+      },
+      {
+        "url": "https://auto.drom.ru/great wall/wall"
+      }
+    ]
+  },
+  {
+    "null": null
+  },
+  {
+    "haima": [
+      {
+        "url": "https://auto.drom.ru/haima/3"
+      },
+      {
+        "url": "https://auto.drom.ru/haima/m3"
+      },
+      {
+        "url": "https://auto.drom.ru/haima/7"
+      },
+      {
+        "url": "https://auto.drom.ru/haima/2"
+      }
+    ]
+  },
+  {
+    "haval": [
+      {
+        "url": "https://auto.drom.ru/haval/jolion"
+      },
+      {
+        "url": "https://auto.drom.ru/haval/f7x"
+      },
+      {
+        "url": "https://auto.drom.ru/haval/f7"
+      },
+      {
+        "url": "https://auto.drom.ru/haval/dargo"
+      },
+      {
+        "url": "https://auto.drom.ru/haval/h9"
+      },
+      {
+        "url": "https://auto.drom.ru/haval/h6"
+      },
+      {
+        "url": "https://auto.drom.ru/haval/h2"
+      },
+      {
+        "url": "https://auto.drom.ru/haval/h5"
+      },
+      {
+        "url": "https://auto.drom.ru/haval/h6"
+      },
+      {
+        "url": "https://auto.drom.ru/haval/h8"
+      },
+      {
+        "url": "https://auto.drom.ru/haval/big"
+      },
+      {
+        "url": "https://auto.drom.ru/haval/shenshou"
+      }
+    ]
+  },
+  {
+    "null": null
+  },
+  {
+    "null": null
+  },
+  {
+    "null": null
+  },
+  {
+    "hummer": [
+      {
+        "url": "https://auto.drom.ru/hummer/h2"
+      },
+      {
+        "url": "https://auto.drom.ru/hummer/h3"
+      },
+      {
+        "url": "https://auto.drom.ru/hummer/h1"
+      }
+    ]
+  },
+  {
+    "iran khodro": [
+      {
+        "url": "https://auto.drom.ru/iran khodro/khodro"
+      },
+      {
+        "url": "https://auto.drom.ru/iran khodro/khodro"
+      }
+    ]
+  },
+  {
+    "isuzu": [
+      {
+        "url": "https://auto.drom.ru/isuzu/bighorn"
+      },
+      {
+        "url": "https://auto.drom.ru/isuzu/wizard"
+      },
+      {
+        "url": "https://auto.drom.ru/isuzu/gemini"
+      },
+      {
+        "url": "https://auto.drom.ru/isuzu/d-max"
+      },
+      {
+        "url": "https://auto.drom.ru/isuzu/trooper"
+      },
+      {
+        "url": "https://auto.drom.ru/isuzu/aska"
+      },
+      {
+        "url": "https://auto.drom.ru/isuzu/rodeo"
+      },
+      {
+        "url": "https://auto.drom.ru/isuzu/vehicross"
+      },
+      {
+        "url": "https://auto.drom.ru/isuzu/mu-x"
+      },
+      {
+        "url": "https://auto.drom.ru/isuzu/mu"
+      },
+      {
+        "url": "https://auto.drom.ru/isuzu/axiom"
+      },
+      {
+        "url": "https://auto.drom.ru/isuzu/fargo"
+      },
+      {
+        "url": "https://auto.drom.ru/isuzu/como"
+      },
+      {
+        "url": "https://auto.drom.ru/isuzu/piazza"
+      },
+      {
+        "url": "https://auto.drom.ru/isuzu/amigo"
+      },
+      {
+        "url": "https://auto.drom.ru/isuzu/piazza"
+      },
+      {
+        "url": "https://auto.drom.ru/isuzu/117"
+      }
+    ]
+  },
+  {
+    "jac": [
+      {
+        "url": "https://auto.drom.ru/jac/j7"
+      },
+      {
+        "url": "https://auto.drom.ru/jac/js6"
+      },
+      {
+        "url": "https://auto.drom.ru/jac/t6"
+      },
+      {
+        "url": "https://auto.drom.ru/jac/js4"
+      },
+      {
+        "url": "https://auto.drom.ru/jac/s3"
+      },
+      {
+        "url": "https://auto.drom.ru/jac/s7"
+      },
+      {
+        "url": "https://auto.drom.ru/jac/s5"
+      },
+      {
+        "url": "https://auto.drom.ru/jac/s1"
+      },
+      {
+        "url": "https://auto.drom.ru/jac/iev7s"
+      },
+      {
+        "url": "https://auto.drom.ru/jac/j2"
+      },
+      {
+        "url": "https://auto.drom.ru/jac/ievs4"
+      }
+    ]
+  },
+  {
+    "jaguar": [
+      {
+        "url": "https://auto.drom.ru/jaguar/xf"
+      },
+      {
+        "url": "https://auto.drom.ru/jaguar/f-pace"
+      },
+      {
+        "url": "https://auto.drom.ru/jaguar/xj"
+      },
+      {
+        "url": "https://auto.drom.ru/jaguar/xe"
+      },
+      {
+        "url": "https://auto.drom.ru/jaguar/e-pace"
+      },
+      {
+        "url": "https://auto.drom.ru/jaguar/x-type"
+      },
+      {
+        "url": "https://auto.drom.ru/jaguar/s-type"
+      },
+      {
+        "url": "https://auto.drom.ru/jaguar/f-type"
+      },
+      {
+        "url": "https://auto.drom.ru/jaguar/i-pace"
+      },
+      {
+        "url": "https://auto.drom.ru/jaguar/xk"
+      },
+      {
+        "url": "https://auto.drom.ru/jaguar/sovereign"
+      }
+    ]
+  },
+  {
+    "jeep": [
+      {
+        "url": "https://auto.drom.ru/jeep/grand"
+      },
+      {
+        "url": "https://auto.drom.ru/jeep/wrangler"
+      },
+      {
+        "url": "https://auto.drom.ru/jeep/cherokee"
+      },
+      {
+        "url": "https://auto.drom.ru/jeep/compass"
+      },
+      {
+        "url": "https://auto.drom.ru/jeep/liberty"
+      },
+      {
+        "url": "https://auto.drom.ru/jeep/renegade"
+      },
+      {
+        "url": "https://auto.drom.ru/jeep/commander"
+      },
+      {
+        "url": "https://auto.drom.ru/jeep/gladiator"
+      },
+      {
+        "url": "https://auto.drom.ru/jeep/patriot"
+      },
+      {
+        "url": "https://auto.drom.ru/jeep/wagoneer"
+      },
+      {
+        "url": "https://auto.drom.ru/jeep/grand"
+      }
+    ]
+  },
+  {
+    "null": null
+  },
+  {
+    "jetta": [
+      {
+        "url": "https://auto.drom.ru/jetta/va3"
+      },
+      {
+        "url": "https://auto.drom.ru/jetta/vs5"
+      },
+      {
+        "url": "https://auto.drom.ru/jetta/vs7"
+      }
+    ]
+  },
+  {
+    "kaiyi": [
+      {
+        "url": "https://auto.drom.ru/kaiyi/e5"
+      }
+    ]
+  },
+  {
+    "lamborghini": [
+      {
+        "url": "https://auto.drom.ru/lamborghini/urus"
+      },
+      {
+        "url": "https://auto.drom.ru/lamborghini/huracan"
+      },
+      {
+        "url": "https://auto.drom.ru/lamborghini/gallardo"
+      },
+      {
+        "url": "https://auto.drom.ru/lamborghini/aventador"
+      }
+    ]
+  },
+  {
+    "null": null
+  },
+  {
+    "null": null
+  },
+  {
+    "lifan": [
+      {
+        "url": "https://auto.drom.ru/lifan/x60"
+      },
+      {
+        "url": "https://auto.drom.ru/lifan/solano"
+      },
+      {
+        "url": "https://auto.drom.ru/lifan/smily"
+      },
+      {
+        "url": "https://auto.drom.ru/lifan/x50"
+      },
+      {
+        "url": "https://auto.drom.ru/lifan/breez"
+      },
+      {
+        "url": "https://auto.drom.ru/lifan/myway"
+      },
+      {
+        "url": "https://auto.drom.ru/lifan/cebrium"
+      },
+      {
+        "url": "https://auto.drom.ru/lifan/x70"
+      },
+      {
+        "url": "https://auto.drom.ru/lifan/murman"
+      },
+      {
+        "url": "https://auto.drom.ru/lifan/celliya"
+      }
+    ]
+  },
+  {
+    "lincoln": [
+      {
+        "url": "https://auto.drom.ru/lincoln/town"
+      },
+      {
+        "url": "https://auto.drom.ru/lincoln/navigator"
+      },
+      {
+        "url": "https://auto.drom.ru/lincoln/aviator"
+      },
+      {
+        "url": "https://auto.drom.ru/lincoln/continental"
+      },
+      {
+        "url": "https://auto.drom.ru/lincoln/mkz"
+      },
+      {
+        "url": "https://auto.drom.ru/lincoln/ls"
+      },
+      {
+        "url": "https://auto.drom.ru/lincoln/mark"
+      },
+      {
+        "url": "https://auto.drom.ru/lincoln/mkc"
+      },
+      {
+        "url": "https://auto.drom.ru/lincoln/nautilus"
+      },
+      {
+        "url": "https://auto.drom.ru/lincoln/mkt"
+      }
+    ]
+  },
+  {
+    "null": null
+  },
+  {
+    "null": null
+  },
+  {
+    "null": null
+  },
+  {
+    "maserati": [
+      {
+        "url": "https://auto.drom.ru/maserati/levante"
+      },
+      {
+        "url": "https://auto.drom.ru/maserati/quattroporte"
+      },
+      {
+        "url": "https://auto.drom.ru/maserati/ghibli"
+      },
+      {
+        "url": "https://auto.drom.ru/maserati/granturismo"
+      },
+      {
+        "url": "https://auto.drom.ru/maserati/grecale"
+      },
+      {
+        "url": "https://auto.drom.ru/maserati/3200"
+      },
+      {
+        "url": "https://auto.drom.ru/maserati/gransport"
+      }
+    ]
+  },
+  {
+    "null": null
+  },
+  {
+    "null": null
+  },
+  {
+    "null": null
+  },
+  {
+    "null": null
+  },
+  {
+    "null": null
+  },
+  {
+    "mini": [
+      {
+        "url": "https://auto.drom.ru/mini/hatch"
+      },
+      {
+        "url": "https://auto.drom.ru/mini/countryman"
+      },
+      {
+        "url": "https://auto.drom.ru/mini/clubman"
+      },
+      {
+        "url": "https://auto.drom.ru/mini/cabrio"
+      },
+      {
+        "url": "https://auto.drom.ru/mini/coupe"
+      },
+      {
+        "url": "https://auto.drom.ru/mini/paceman"
+      },
+      {
+        "url": "https://auto.drom.ru/mini/crossover"
+      }
+    ]
+  },
+  {
+    "null": null
+  },
+  {
+    "null": null
+  },
+  {
+    "null": null
+  },
+  {
+    "omoda": [
+      {
+        "url": "https://auto.drom.ru/omoda/c5"
+      }
+    ]
+  },
+  {
+    "opel": [
+      {
+        "url": "https://auto.drom.ru/opel/astra"
+      },
+      {
+        "url": "https://auto.drom.ru/opel/corsa"
+      },
+      {
+        "url": "https://auto.drom.ru/opel/astra"
+      },
+      {
+        "url": "https://auto.drom.ru/opel/vectra"
+      },
+      {
+        "url": "https://auto.drom.ru/opel/insignia"
+      },
+      {
+        "url": "https://auto.drom.ru/opel/mokka"
+      },
+      {
+        "url": "https://auto.drom.ru/opel/zafira"
+      },
+      {
+        "url": "https://auto.drom.ru/opel/antara"
+      },
+      {
+        "url": "https://auto.drom.ru/opel/meriva"
+      },
+      {
+        "url": "https://auto.drom.ru/opel/omega"
+      },
+      {
+        "url": "https://auto.drom.ru/opel/astra"
+      },
+      {
+        "url": "https://auto.drom.ru/opel/frontera"
+      },
+      {
+        "url": "https://auto.drom.ru/opel/vita"
+      },
+      {
+        "url": "https://auto.drom.ru/opel/kadett"
+      },
+      {
+        "url": "https://auto.drom.ru/opel/vivaro"
+      },
+      {
+        "url": "https://auto.drom.ru/opel/combo"
+      },
+      {
+        "url": "https://auto.drom.ru/opel/monterey"
+      },
+      {
+        "url": "https://auto.drom.ru/opel/zafira"
+      },
+      {
+        "url": "https://auto.drom.ru/opel/rekord"
+      },
+      {
+        "url": "https://auto.drom.ru/opel/agila"
+      }
+    ]
+  },
+  {
+    "peugeot": [
+      {
+        "url": "https://auto.drom.ru/peugeot/308"
+      },
+      {
+        "url": "https://auto.drom.ru/peugeot/206"
+      },
+      {
+        "url": "https://auto.drom.ru/peugeot/408"
+      },
+      {
+        "url": "https://auto.drom.ru/peugeot/307"
+      },
+      {
+        "url": "https://auto.drom.ru/peugeot/3008"
+      },
+      {
+        "url": "https://auto.drom.ru/peugeot/partner"
+      },
+      {
+        "url": "https://auto.drom.ru/peugeot/407"
+      },
+      {
+        "url": "https://auto.drom.ru/peugeot/207"
+      },
+      {
+        "url": "https://auto.drom.ru/peugeot/4007"
+      },
+      {
+        "url": "https://auto.drom.ru/peugeot/107"
+      },
+      {
+        "url": "https://auto.drom.ru/peugeot/traveller"
+      },
+      {
+        "url": "https://auto.drom.ru/peugeot/406"
+      },
+      {
+        "url": "https://auto.drom.ru/peugeot/508"
+      },
+      {
+        "url": "https://auto.drom.ru/peugeot/607"
+      },
+      {
+        "url": "https://auto.drom.ru/peugeot/301"
+      },
+      {
+        "url": "https://auto.drom.ru/peugeot/partner"
+      },
+      {
+        "url": "https://auto.drom.ru/peugeot/2008"
+      },
+      {
+        "url": "https://auto.drom.ru/peugeot/208"
+      },
+      {
+        "url": "https://auto.drom.ru/peugeot/5008"
+      },
+      {
+        "url": "https://auto.drom.ru/peugeot/expert"
+      }
+    ]
+  },
+  {
+    "null": null
+  },
+  {
+    "null": null
+  },
+  {
+    "pontiac": []
+  },
+  {
+    "porsche": [
+      {
+        "url": "https://auto.drom.ru/porsche/cayenne"
+      },
+      {
+        "url": "https://auto.drom.ru/porsche/macan"
+      },
+      {
+        "url": "https://auto.drom.ru/porsche/panamera"
+      },
+      {
+        "url": "https://auto.drom.ru/porsche/cayenne"
+      },
+      {
+        "url": "https://auto.drom.ru/porsche/911"
+      },
+      {
+        "url": "https://auto.drom.ru/porsche/boxster"
+      },
+      {
+        "url": "https://auto.drom.ru/porsche/cayman"
+      },
+      {
+        "url": "https://auto.drom.ru/porsche/taycan"
+      },
+      {
+        "url": "https://auto.drom.ru/porsche/924"
+      },
+      {
+        "url": "https://auto.drom.ru/porsche/928"
+      },
+      {
+        "url": "https://auto.drom.ru/porsche/944"
+      },
+      {
+        "url": "https://auto.drom.ru/porsche/968"
+      }
+    ]
+  },
+  {
+    "null": null
+  },
+  {
+    "ram": [
+      {
+        "url": "https://auto.drom.ru/ram/1500"
+      },
+      {
+        "url": "https://auto.drom.ru/ram/2500"
+      }
+    ]
+  },
+  {
+    "ravon": [
+      {
+        "url": "https://auto.drom.ru/ravon/nexia"
+      },
+      {
+        "url": "https://auto.drom.ru/ravon/r2"
+      },
+      {
+        "url": "https://auto.drom.ru/ravon/r4"
+      },
+      {
+        "url": "https://auto.drom.ru/ravon/gentra"
+      },
+      {
+        "url": "https://auto.drom.ru/ravon/matiz"
+      }
+    ]
+  },
+  {
+    "renault": [
+      {
+        "url": "https://auto.drom.ru/renault/logan"
+      },
+      {
+        "url": "https://auto.drom.ru/renault/duster"
+      },
+      {
+        "url": "https://auto.drom.ru/renault/kaptur"
+      },
+      {
+        "url": "https://auto.drom.ru/renault/megane"
+      },
+      {
+        "url": "https://auto.drom.ru/renault/sandero"
+      },
+      {
+        "url": "https://auto.drom.ru/renault/sandero"
+      },
+      {
+        "url": "https://auto.drom.ru/renault/arkana"
+      },
+      {
+        "url": "https://auto.drom.ru/renault/fluence"
+      },
+      {
+        "url": "https://auto.drom.ru/renault/symbol"
+      },
+      {
+        "url": "https://auto.drom.ru/renault/logan"
+      },
+      {
+        "url": "https://auto.drom.ru/renault/koleos"
+      },
+      {
+        "url": "https://auto.drom.ru/renault/scenic"
+      },
+      {
+        "url": "https://auto.drom.ru/renault/kangoo"
+      },
+      {
+        "url": "https://auto.drom.ru/renault/laguna"
+      },
+      {
+        "url": "https://auto.drom.ru/renault/clio"
+      },
+      {
+        "url": "https://auto.drom.ru/renault/grand"
+      },
+      {
+        "url": "https://auto.drom.ru/renault/talisman"
+      },
+      {
+        "url": "https://auto.drom.ru/renault/trafic"
+      },
+      {
+        "url": "https://auto.drom.ru/renault/espace"
+      },
+      {
+        "url": "https://auto.drom.ru/renault/kadjar"
+      }
+    ]
+  },
+  {
+    "renault samsung": [
+      {
+        "url": "https://auto.drom.ru/renault samsung/samsung"
+      },
+      {
+        "url": "https://auto.drom.ru/renault samsung/samsung"
+      },
+      {
+        "url": "https://auto.drom.ru/renault samsung/samsung"
+      },
+      {
+        "url": "https://auto.drom.ru/renault samsung/samsung"
+      },
+      {
+        "url": "https://auto.drom.ru/renault samsung/samsung"
+      },
+      {
+        "url": "https://auto.drom.ru/renault samsung/samsung"
+      },
+      {
+        "url": "https://auto.drom.ru/renault samsung/samsung"
+      }
+    ]
+  },
+  {
+    "null": null
+  },
+  {
+    "null": null
+  },
+  {
+    "rolls-royce": [
+      {
+        "url": "https://auto.drom.ru/rolls-royce/ghost"
+      },
+      {
+        "url": "https://auto.drom.ru/rolls-royce/cullinan"
+      },
+      {
+        "url": "https://auto.drom.ru/rolls-royce/phantom"
+      },
+      {
+        "url": "https://auto.drom.ru/rolls-royce/wraith"
+      },
+      {
+        "url": "https://auto.drom.ru/rolls-royce/silver"
+      },
+      {
+        "url": "https://auto.drom.ru/rolls-royce/dawn"
+      }
+    ]
+  },
+  {
+    "rover": []
+  },
+  {
+    "saab": [
+      {
+        "url": "https://auto.drom.ru/saab/9-3"
+      },
+      {
+        "url": "https://auto.drom.ru/saab/9-5"
+      },
+      {
+        "url": "https://auto.drom.ru/saab/9000"
+      },
+      {
+        "url": "https://auto.drom.ru/saab/900"
+      }
+    ]
+  },
+  {
+    "null": null
+  },
+  {
+    "scion": []
+  },
+  {
+    "seat": [
+      {
+        "url": "https://auto.drom.ru/seat/leon"
+      },
+      {
+        "url": "https://auto.drom.ru/seat/altea"
+      },
+      {
+        "url": "https://auto.drom.ru/seat/ibiza"
+      },
+      {
+        "url": "https://auto.drom.ru/seat/toledo"
+      },
+      {
+        "url": "https://auto.drom.ru/seat/cordoba"
+      },
+      {
+        "url": "https://auto.drom.ru/seat/alhambra"
+      },
+      {
+        "url": "https://auto.drom.ru/seat/ateca"
+      },
+      {
+        "url": "https://auto.drom.ru/seat/tarraco"
+      },
+      {
+        "url": "https://auto.drom.ru/seat/arona"
+      },
+      {
+        "url": "https://auto.drom.ru/seat/arosa"
+      },
+      {
+        "url": "https://auto.drom.ru/seat/terra"
+      }
+    ]
+  },
+  {
+    "null": null
+  },
+  {
+    "skoda": [
+      {
+        "url": "https://auto.drom.ru/skoda/octavia"
+      },
+      {
+        "url": "https://auto.drom.ru/skoda/rapid"
+      },
+      {
+        "url": "https://auto.drom.ru/skoda/fabia"
+      },
+      {
+        "url": "https://auto.drom.ru/skoda/kodiaq"
+      },
+      {
+        "url": "https://auto.drom.ru/skoda/yeti"
+      },
+      {
+        "url": "https://auto.drom.ru/skoda/superb"
+      },
+      {
+        "url": "https://auto.drom.ru/skoda/karoq"
+      },
+      {
+        "url": "https://auto.drom.ru/skoda/roomster"
+      },
+      {
+        "url": "https://auto.drom.ru/skoda/felicia"
+      },
+      {
+        "url": "https://auto.drom.ru/skoda/praktik"
+      },
+      {
+        "url": "https://auto.drom.ru/skoda/kamiq"
+      },
+      {
+        "url": "https://auto.drom.ru/skoda/favorit"
+      },
+      {
+        "url": "https://auto.drom.ru/skoda/scala"
+      },
+      {
+        "url": "https://auto.drom.ru/skoda/1203"
+      }
+    ]
+  },
+  {
+    "skywell": [
+      {
+        "url": "https://auto.drom.ru/skywell/et5"
+      }
+    ]
+  },
+  {
+    "smart": [
+      {
+        "url": "https://auto.drom.ru/smart/fortwo"
+      },
+      {
+        "url": "https://auto.drom.ru/smart/forfour"
+      },
+      {
+        "url": "https://auto.drom.ru/smart/roadster"
+      },
+      {
+        "url": "https://auto.drom.ru/smart/city"
+      }
+    ]
+  },
+  {
+    "ssangyong": [
+      {
+        "url": "https://auto.drom.ru/ssangyong/actyon"
+      },
+      {
+        "url": "https://auto.drom.ru/ssangyong/kyron"
+      },
+      {
+        "url": "https://auto.drom.ru/ssangyong/rexton"
+      },
+      {
+        "url": "https://auto.drom.ru/ssangyong/actyon"
+      },
+      {
+        "url": "https://auto.drom.ru/ssangyong/istana"
+      },
+      {
+        "url": "https://auto.drom.ru/ssangyong/korando"
+      },
+      {
+        "url": "https://auto.drom.ru/ssangyong/musso"
+      },
+      {
+        "url": "https://auto.drom.ru/ssangyong/rexton"
+      },
+      {
+        "url": "https://auto.drom.ru/ssangyong/korando"
+      },
+      {
+        "url": "https://auto.drom.ru/ssangyong/musso"
+      },
+      {
+        "url": "https://auto.drom.ru/ssangyong/rodius"
+      },
+      {
+        "url": "https://auto.drom.ru/ssangyong/stavic"
+      },
+      {
+        "url": "https://auto.drom.ru/ssangyong/tivoli"
+      },
+      {
+        "url": "https://auto.drom.ru/ssangyong/tivoli"
+      },
+      {
+        "url": "https://auto.drom.ru/ssangyong/korando"
+      },
+      {
+        "url": "https://auto.drom.ru/ssangyong/korando"
+      },
+      {
+        "url": "https://auto.drom.ru/ssangyong/torres"
+      },
+      {
+        "url": "https://auto.drom.ru/ssangyong/chairman"
+      },
+      {
+        "url": "https://auto.drom.ru/ssangyong/nomad"
+      },
+      {
+        "url": "https://auto.drom.ru/ssangyong/ssangyong"
+      }
+    ]
+  },
+  {
+    "tank": [
+      {
+        "url": "https://auto.drom.ru/tank/300"
+      },
+      {
+        "url": "https://auto.drom.ru/tank/500"
+      }
+    ]
+  },
+  {
+    "null": null
+  },
+  {
+    "tesla": [
+      {
+        "url": "https://auto.drom.ru/tesla/model"
+      },
+      {
+        "url": "https://auto.drom.ru/tesla/model"
+      },
+      {
+        "url": "https://auto.drom.ru/tesla/model"
+      },
+      {
+        "url": "https://auto.drom.ru/tesla/model"
+      }
+    ]
+  },
+  {
+    "null": null
+  },
+  {
+    "null": null
+  },
+  {
+    "volvo": [
+      {
+        "url": "https://auto.drom.ru/volvo/xc90"
+      },
+      {
+        "url": "https://auto.drom.ru/volvo/xc60"
+      },
+      {
+        "url": "https://auto.drom.ru/volvo/s60"
+      },
+      {
+        "url": "https://auto.drom.ru/volvo/s80"
+      },
+      {
+        "url": "https://auto.drom.ru/volvo/s40"
+      },
+      {
+        "url": "https://auto.drom.ru/volvo/xc70"
+      },
+      {
+        "url": "https://auto.drom.ru/volvo/v90"
+      },
+      {
+        "url": "https://auto.drom.ru/volvo/v40"
+      },
+      {
+        "url": "https://auto.drom.ru/volvo/v60"
+      },
+      {
+        "url": "https://auto.drom.ru/volvo/xc40"
+      },
+      {
+        "url": "https://auto.drom.ru/volvo/s90"
+      },
+      {
+        "url": "https://auto.drom.ru/volvo/850"
+      },
+      {
+        "url": "https://auto.drom.ru/volvo/c30"
+      },
+      {
+        "url": "https://auto.drom.ru/volvo/940"
+      },
+      {
+        "url": "https://auto.drom.ru/volvo/v70"
+      },
+      {
+        "url": "https://auto.drom.ru/volvo/960"
+      },
+      {
+        "url": "https://auto.drom.ru/volvo/s70"
+      },
+      {
+        "url": "https://auto.drom.ru/volvo/v50"
+      },
+      {
+        "url": "https://auto.drom.ru/volvo/240"
+      },
+      {
+        "url": "https://auto.drom.ru/volvo/740"
+      }
+    ]
+  },
+  {
+    "vortex": [
+      {
+        "url": "https://auto.drom.ru/vortex/tingo"
+      },
+      {
+        "url": "https://auto.drom.ru/vortex/estina"
+      },
+      {
+        "url": "https://auto.drom.ru/vortex/corda"
+      }
+    ]
+  },
+  {
+    "voyah": []
+  },
+  {
+    "null": null
+  },
+  {
+    "null": null
+  },
+  {
+    "null": null
+  },
+  {
+    "zeekr": [
+      {
+        "url": "https://auto.drom.ru/zeekr/001"
+      }
+    ]
+  },
+  {
+    "zotye": [
+      {
+        "url": "https://auto.drom.ru/zotye/t600"
+      },
+      {
+        "url": "https://auto.drom.ru/zotye/coupa"
+      }
+    ]
+  },
+  {
+    "null": null
+  },
+  {
+    "evolute": []
+  },
+  {
+    "богдан": [
+      {
+        "url": "https://auto.drom.ru/богдан/2110"
+      },
+      {
+        "url": "https://auto.drom.ru/богдан/2111"
+      },
+      {
+        "url": "https://auto.drom.ru/богдан/2310"
+      }
+    ]
+  },
+  {
+    "газ": [
+      {
+        "url": "https://auto.drom.ru/газ/3110"
+      },
+      {
+        "url": "https://auto.drom.ru/газ/31105"
+      },
+      {
+        "url": "https://auto.drom.ru/газ/21"
+      },
+      {
+        "url": "https://auto.drom.ru/газ/24"
+      },
+      {
+        "url": "https://auto.drom.ru/газ/31029"
+      },
+      {
+        "url": "https://auto.drom.ru/газ/2217"
+      },
+      {
+        "url": "https://auto.drom.ru/газ/3102"
+      },
+      {
+        "url": "https://auto.drom.ru/газ/69"
+      },
+      {
+        "url": "https://auto.drom.ru/газ/волга"
+      },
+      {
+        "url": "https://auto.drom.ru/газ/победа"
+      },
+      {
+        "url": "https://auto.drom.ru/газ/67"
+      },
+      {
+        "url": "https://auto.drom.ru/газ/12"
+      },
+      {
+        "url": "https://auto.drom.ru/газ/22"
+      },
+      {
+        "url": "https://auto.drom.ru/газ/14"
+      },
+      {
+        "url": "https://auto.drom.ru/газ/м-72"
+      },
+      {
+        "url": "https://auto.drom.ru/газ/2330"
+      },
+      {
+        "url": "https://auto.drom.ru/газ/чайка"
+      },
+      {
+        "url": "https://auto.drom.ru/газ/3111"
+      },
+      {
+        "url": "https://auto.drom.ru/газ/м1"
+      },
+      {
+        "url": "https://auto.drom.ru/газ/13"
+      }
+    ]
+  },
+  {
+    "null": null
+  },
+  {
+    "заз": [
+      {
+        "url": "https://auto.drom.ru/заз/шанс"
+      },
+      {
+        "url": "https://auto.drom.ru/заз/сенс"
+      },
+      {
+        "url": "https://auto.drom.ru/заз/запорожец"
+      },
+      {
+        "url": "https://auto.drom.ru/заз/таврия"
+      },
+      {
+        "url": "https://auto.drom.ru/заз/славута"
+      },
+      {
+        "url": "https://auto.drom.ru/заз/вида"
+      },
+      {
+        "url": "https://auto.drom.ru/заз/ланос"
+      },
+      {
+        "url": "https://auto.drom.ru/заз/заз"
+      },
+      {
+        "url": "https://auto.drom.ru/заз/пикап"
+      },
+      {
+        "url": "https://auto.drom.ru/заз/дана"
+      },
+      {
+        "url": "https://auto.drom.ru/заз/форца"
+      }
+    ]
+  },
+  {
+    "null": null
+  },
+  {
+    "null": null
+  },
+  {
+    "иж": []
+  },
+  {
+    "луаз": [
+      {
+        "url": "https://auto.drom.ru/луаз/969"
+      },
+      {
+        "url": "https://auto.drom.ru/луаз/луаз"
+      },
+      {
+        "url": "https://auto.drom.ru/луаз/1302"
+      }
+    ]
+  },
+  {
+    "москвич": [
+      {
+        "url": "https://auto.drom.ru/москвич/3"
+      },
+      {
+        "url": "https://auto.drom.ru/москвич/412"
+      },
+      {
+        "url": "https://auto.drom.ru/москвич/2141"
+      },
+      {
+        "url": "https://auto.drom.ru/москвич/2140"
+      },
+      {
+        "url": "https://auto.drom.ru/москвич/3е"
+      },
+      {
+        "url": "https://auto.drom.ru/москвич/407"
+      },
+      {
+        "url": "https://auto.drom.ru/москвич/401"
+      },
+      {
+        "url": "https://auto.drom.ru/москвич/403"
+      },
+      {
+        "url": "https://auto.drom.ru/москвич/408"
+      },
+      {
+        "url": "https://auto.drom.ru/москвич/402"
+      },
+      {
+        "url": "https://auto.drom.ru/москвич/400"
+      },
+      {
+        "url": "https://auto.drom.ru/москвич/2137"
+      },
+      {
+        "url": "https://auto.drom.ru/москвич/2335"
+      },
+      {
+        "url": "https://auto.drom.ru/москвич/2142"
+      },
+      {
+        "url": "https://auto.drom.ru/москвич/423"
+      },
+      {
+        "url": "https://auto.drom.ru/москвич/426"
+      },
+      {
+        "url": "https://auto.drom.ru/москвич/410"
+      },
+      {
+        "url": "https://auto.drom.ru/москвич/москвич"
+      },
+      {
+        "url": "https://auto.drom.ru/москвич/411"
+      },
+      {
+        "url": "https://auto.drom.ru/москвич/2138"
+      }
+    ]
+  },
+  {
+    "тагаз": [
+      {
+        "url": "https://auto.drom.ru/тагаз/тагер"
+      },
+      {
+        "url": "https://auto.drom.ru/тагаз/вега"
+      },
+      {
+        "url": "https://auto.drom.ru/тагаз/с10"
+      },
+      {
+        "url": "https://auto.drom.ru/тагаз/роад"
+      },
+      {
+        "url": "https://auto.drom.ru/тагаз/с190"
+      },
+      {
+        "url": "https://auto.drom.ru/тагаз/aquila"
+      },
+      {
+        "url": "https://auto.drom.ru/тагаз/тагаз"
+      }
+    ]
+  },
+  {
+    "уаз": [
+      {
+        "url": "https://auto.drom.ru/уаз/патриот"
+      },
+      {
+        "url": "https://auto.drom.ru/уаз/буханка"
+      },
+      {
+        "url": "https://auto.drom.ru/уаз/3151"
+      },
+      {
+        "url": "https://auto.drom.ru/уаз/хантер"
+      },
+      {
+        "url": "https://auto.drom.ru/уаз/пикап"
+      },
+      {
+        "url": "https://auto.drom.ru/уаз/469"
+      },
+      {
+        "url": "https://auto.drom.ru/уаз/симбир"
+      },
+      {
+        "url": "https://auto.drom.ru/уаз/3153"
+      },
+      {
+        "url": "https://auto.drom.ru/уаз/3159"
+      },
+      {
+        "url": "https://auto.drom.ru/уаз/патриот"
+      }
+    ]
+  }
+]
