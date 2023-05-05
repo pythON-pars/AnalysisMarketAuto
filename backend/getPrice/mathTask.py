@@ -5,12 +5,13 @@ from time import sleep
 """
 
 class ArithmeticMean:
-    
+    # I do not like the implementation of this class and its method, 
+    # it will undergo changes in the near future
     def __init__(self) -> None:
         pass
 
     def mild(self, sin: list):
-        if sin == []:
+        if type(sin) is list:
             return
 
         bestInt = len(sin)

@@ -1,4 +1,5 @@
 import requests
+import sqlite3
 from bs4 import BeautifulSoup
 from getPrice.mathTask import ArithmeticMean
 from json import dump, load
@@ -9,10 +10,10 @@ from json import dump, load
         numbers and then dividing the resulting sum by their number.
         
     At the development stage, the project will contain many temporary solutions, 
-    which will soon be replaced by improved versions.        
+    which will soon be replaced by improved versions.
 """
 
-class GetBaisData:
+class LinkFormation:
     def __init__(self) -> None:
         self.arithmetic = ArithmeticMean()
 
@@ -67,7 +68,6 @@ class GetBaisData:
         
         soup = BeautifulSoup(self.response(url=modelUrl['href']), 'lxml')
 
-        name = []
         for lisstName in soup.find_all('div', class_='esy1m7g6'):
             modelName = lisstName.find('div', class_='e3f4v4l2').text.split(' ')[1]
             
@@ -80,21 +80,15 @@ class GetBaisData:
             if din is True:
                 modelName = modelName.replace(' ', ' ')
 
-            name.append(
-                {
-                    'url':f"https://auto.drom.ru/{model.lower()}/{modelName.replace(',', '').lower().split(' ')[0]}"
-                }
-            )
+            url = f"https://auto.drom.ru/{model.lower()}/{modelName.replace(',', '').lower().split(' ')[0]}"
 
-        return name, model.lower()
-        ###############################################################
-        
-    def getYearsIssue(self, controlURL: str):
+            self.getYearsIssue(url, mod=model.lower())
+
+    def getYearsIssue(self, controlURL: str, mod):
         """
             A function that iterates over generations and returns lists of end links
         """
         
-        bas = []
         for generation in range(1, 3 + 1):
             statusGeneration = requests.get(controlURL + f"/generation{generation}/restyling0/").status_code
             if statusGeneration != 200:
@@ -104,50 +98,30 @@ class GetBaisData:
                 fullUrl = requests.get(green).status_code
                 if fullUrl != 200:
                     break
-                bas.append(green)
 
-        return bas
+                sql.execute(f"INSERT INTO urlib (model, url, generation) VALUES (?, ?, ?)", (green, mod + ' ' + controlURL.split('/')[-1], f"generation{generation} restyling{restyling}"))
 
-    def getPriсeName(self, url):
-        """
-            Collects Make and Model of Auto and their Aftermarket Price
-        """
-        
-        soup = BeautifulSoup(self.response(url), 'lxml')
+                db.commit()
 
-        c = 0
-        carts = soup.find_all('a', class_='css-xb5nz8 e1huvdhj1')
-        priceList = []
-        for i in carts:
-            c+=1
-            price = int(i.find('span', {"data-ftid":"bull_price"}).text.replace(' ', ''))
-            priceList.append(price)
+def main():
+    # call the main function that parses drom.ru
+    star = LinkFormation()
 
-        s = self.arithmetic.mild(priceList)
-        print(s)
+    # The most important thing to understand is that this is not just parsing, 
+    # but the formation of clean links to each generation from car models, 
+    # for deep analysis, each of the following functions performs some small task and passes the 
+    # etafet until we get integer prices and other important ones auto parameters
+    for i in star.parsignRootPage():
+        star.getListAutoModel(*i.keys(), *i.values())
 
 if __name__ == '__main__':
-    star = GetBaisData()
+    
+    # create a database
+    db = sqlite3.connect("AnalysisMarketAuto/UrlAuto.db")
+    sql = db.cursor()
 
-    count = 0
-    sprintData = []
-    for i in star.parsignRootPage():
-        print(i)
-        objectNon, model = star.getListAutoModel(*i.keys(), *i.values())
+    # create a table for collecting links
+    sql.execute('CREATE TABLE IF NOT EXISTS urlib (model TEXT, url TEXT, generation TEXT)')    
+    db.commit()
 
-        sprintData.append(
-            {
-                model: objectNon                   
-            }
-        )
-        
-            # for i in star.getYearsIssue(urlYear['url']):
-            #     print(i)
-            #     star.getPriсeName(i)
-            #     count += 1
-
-        if count == 1:
-            break
-
-    with open(f'backend/ModelStore/AllUrlsModel.json', 'w') as model:
-        dump(sprintData, model, indent=2, ensure_ascii=False)
+    main()
