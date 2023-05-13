@@ -1,8 +1,8 @@
 import requests
 import sqlite3
 from bs4 import BeautifulSoup
+from PriceArray import getPriсeAuto
 from getPrice.mathTask import ArithmeticMean
-from json import dump, load
 
 """
     Calculation formula:
@@ -14,9 +14,6 @@ from json import dump, load
 """
 
 class LinkFormation:
-    def __init__(self) -> None:
-        self.arithmetic = ArithmeticMean()
-
     def response(self, url='https://www.drom.ru/'):
         """
             A method that takes an html page and returns the result in text format
@@ -88,6 +85,7 @@ class LinkFormation:
         """
             A function that iterates over generations and returns lists of end links
         """
+        from asyncio import run # *
         
         for generation in range(1, 3 + 1):
             statusGeneration = requests.get(controlURL + f"/generation{generation}/restyling0/").status_code
@@ -98,14 +96,35 @@ class LinkFormation:
                 fullUrl = requests.get(green).status_code
                 if fullUrl != 200:
                     break
-
+                
                 sql.execute(f"INSERT INTO urlib (model, url, generation) VALUES (?, ?, ?)", (green, mod + ' ' + controlURL.split('/')[-1], f"generation{generation} restyling{restyling}"))
 
                 db.commit()
+                
+                data = run(getPriсeAuto(green))
 
-def main():
+                return ArithmeticMean().mild(data)
+
+def get_priceDrom() -> None:
+    """
+        collects brands, models, generates suitable links up to the 
+        generation and restyling of the car and writes all the data to sqlite.
+
+        This module was created only to work with drom.ru
+    """
+    
+    global db, sql
+
     # call the main function that parses drom.ru
     star = LinkFormation()
+
+    # create a database
+    db = sqlite3.connect("UrlAuto.db")
+    sql = db.cursor()
+
+    # create a table for collecting links
+    sql.execute('CREATE TABLE IF NOT EXISTS urlib (model TEXT, url TEXT, generation TEXT)')    
+    db.commit()
 
     # The most important thing to understand is that this is not just parsing, 
     # but the formation of clean links to each generation from car models, 
@@ -113,15 +132,3 @@ def main():
     # etafet until we get integer prices and other important ones auto parameters
     for i in star.parsignRootPage():
         star.getListAutoModel(*i.keys(), *i.values())
-
-if __name__ == '__main__':
-    
-    # create a database
-    db = sqlite3.connect("AnalysisMarketAuto/UrlAuto.db")
-    sql = db.cursor()
-
-    # create a table for collecting links
-    sql.execute('CREATE TABLE IF NOT EXISTS urlib (model TEXT, url TEXT, generation TEXT)')    
-    db.commit()
-
-    main()

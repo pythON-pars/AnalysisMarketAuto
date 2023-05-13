@@ -2,25 +2,10 @@
     This file is only for testing modules or algorithms.
     It does not carry any semantic load.
 """
+
 from getPrice.mathTask import ArithmeticMean
 
-async def getPriсeName():
-        """
-            Collects Make and Model of Auto and their Aftermarket Price
-        """
-        
-        # this process is aimed at getting the price and other important parameters
-        # that will be displayed on the web but first recorded in SQLite
-        
-        soup = BeautifulSoup(self.response(url), 'lxml')
+b = [270000, 200000, 359000, 270000, 215000, 315000, 440000, 440000, 270000, 450000, 100000, 190000, 150000, 350000, 320000, 239000, 550000, 350000, 620000, 280000, 200000, 160000, 155000, 200000, 205000, 345000, 320000, 235000, 299000, 1450000, 220000, 260000, 282000, 220000, 265000, 230000, 290000, 200000, 230000, 190000]
 
-        c = 0
-        carts = soup.find_all('a', class_='css-xb5nz8 e1huvdhj1')
-        priceList = []
-        for i in carts:
-            c+=1
-            price = int(i.find('span', {"data-ftid":"bull_price"}).text.replace(' ', ''))
-            priceList.append(price)
-
-        s = ArithmeticMean.mild(priceList)
-        print(s)
+s = ArithmeticMean().mild(b)
+print(s)
