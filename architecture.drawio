@@ -1,53 +1,131 @@
 <mxfile host="65bd71144e">
     <diagram id="7Fs6vfgvI15YjIwSOu54" name="Page-1">
-        <mxGraphModel dx="792" dy="493" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+        <mxGraphModel dx="1015" dy="1750" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
-                <mxCell id="3" style="edgeStyle=none;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;endArrow=open;endFill=0;startArrow=none;" edge="1" parent="1" source="4">
+                <mxCell id="16" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;fontSize=19;" edge="1" parent="1" source="13" target="17">
                     <mxGeometry relative="1" as="geometry">
-                        <mxPoint x="650" y="170" as="targetPoint"/>
-                    </mxGeometry>
-                </mxCell>
-                <mxCell id="2" value="Python fetches data" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#6a00ff;fontColor=#FFFF00;strokeColor=#3700CC;" vertex="1" parent="1">
-                    <mxGeometry x="340" width="145" height="80" as="geometry"/>
-                </mxCell>
-                <mxCell id="5" value="" style="edgeStyle=none;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="2" target="4">
-                    <mxGeometry relative="1" as="geometry">
-                        <mxPoint x="640" y="160" as="targetPoint"/>
-                        <mxPoint x="485" y="80" as="sourcePoint"/>
-                    </mxGeometry>
-                </mxCell>
-                <mxCell id="4" value="Sends them to Postgres" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1">
-                    <mxGeometry x="510" y="100" width="90" height="40" as="geometry"/>
-                </mxCell>
-                <mxCell id="6" value="Postgres" style="shape=card;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1">
-                    <mxGeometry x="650" y="140" width="80" height="100" as="geometry"/>
-                </mxCell>
-                <mxCell id="7" value="" style="curved=1;endArrow=blockThin;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endFill=0;" edge="1" parent="1" source="6" target="9">
-                    <mxGeometry width="50" height="50" relative="1" as="geometry">
-                        <mxPoint x="490" y="300" as="sourcePoint"/>
-                        <mxPoint x="320" y="320" as="targetPoint"/>
+                        <mxPoint x="80" y="250" as="targetPoint"/>
                         <Array as="points">
-                            <mxPoint x="550" y="240"/>
-                            <mxPoint x="490" y="250"/>
+                            <mxPoint x="120" y="250"/>
+                            <mxPoint x="120" y="80"/>
                         </Array>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="8" value="NEXT" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;gradientColor=#ea6b66;strokeColor=#b85450;" vertex="1" parent="1">
-                    <mxGeometry x="485" y="230" width="60" height="40" as="geometry"/>
-                </mxCell>
-                <mxCell id="13" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#FFFF00;endArrow=blockThin;endFill=0;" edge="1" parent="1" source="9" target="10">
+                <mxCell id="20" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=16;startArrow=classic;startFill=1;" edge="1" parent="1" source="13" target="14">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="9" value="Web-InterFace" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#8D96A3;strokeColor=#000000;gradientColor=#000000;" vertex="1" parent="1">
-                    <mxGeometry x="260" y="320" width="120" height="60" as="geometry"/>
+                <mxCell id="13" value="INTERFACE" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;fontSize=19;" vertex="1" parent="1">
+                    <mxGeometry x="215" y="220" width="120" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="10" value="JavaScript arranges the already calculated data according to the preshabrod" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fa6800;strokeColor=#C73500;fontColor=#000000;" vertex="1" parent="1">
-                    <mxGeometry x="245" y="440" width="150" height="80" as="geometry"/>
+                <mxCell id="14" value="DATA BASE" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;fontSize=19;" vertex="1" parent="1">
+                    <mxGeometry x="365" y="220" width="120" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="12" value="Carries out calculations (migration to HASKEll is possible)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1">
-                    <mxGeometry x="340" y="30" width="145" height="50" as="geometry"/>
+                <mxCell id="21" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=16;startArrow=classic;startFill=1;" edge="1" parent="1" source="15" target="14">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="25" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=16;startArrow=none;startFill=0;" edge="1" parent="1" source="15" target="29">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="760" y="120" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="26" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=16;startArrow=none;startFill=0;" edge="1" parent="1" source="15" target="31">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="760" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="27" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=16;startArrow=none;startFill=0;" edge="1" parent="1" source="15" target="30">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="760" y="-120" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="33" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=16;startArrow=none;startFill=0;" edge="1" parent="1" source="15" target="32">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="575" y="410"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="15" value="BACK-END" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;fontSize=19;" vertex="1" parent="1">
+                    <mxGeometry x="515" y="220" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="17" value="index.html" style="whiteSpace=wrap;html=1;aspect=fixed;fontSize=16;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
+                    <mxGeometry y="80" width="80" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="18" value="JavaSript File" style="whiteSpace=wrap;html=1;aspect=fixed;fontSize=16;fillColor=#fa6800;fontColor=#000000;strokeColor=#C73500;" vertex="1" parent="1">
+                    <mxGeometry y="-40" width="80" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="19" value="" style="endArrow=classic;html=1;fontSize=19;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="13" target="18">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="420" y="210" as="sourcePoint"/>
+                        <mxPoint x="470" y="160" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="120" y="250"/>
+                            <mxPoint x="120"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="56" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=14;fontColor=#FFFCFF;startArrow=none;startFill=0;" edge="1" parent="1" source="29" target="57">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="1300" y="109.60869565217399" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="1150" y="110"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="60" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=14;fontColor=#FFFCFF;startArrow=none;startFill=0;" edge="1" parent="1" source="29" target="59">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="29" value="PriceArray.py" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;labelBackgroundColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="730" y="80" width="150" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="30" value="init.py" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;labelBackgroundColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="729.65" y="-190" width="150" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="31" value="ParsingWithDrom.py" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;labelBackgroundColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="730.7" y="-50" width="150" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="36" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;fontSize=16;startArrow=none;startFill=0;" edge="1" parent="1" source="32">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="730.0456521739133" y="530" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="32" value="GetPrice" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fontSize=16;" vertex="1" parent="1">
+                    <mxGeometry x="730.35" y="360" width="80" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="41" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=-0.004;entryY=0.38;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=16;fontColor=#FFFF00;startArrow=none;startFill=0;" edge="1" parent="1" source="34" target="38">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="34" value="mathTask.py" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1">
+                    <mxGeometry x="730.35" y="530" width="149.65" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="45" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;fontSize=16;fontColor=#FFFCFF;startArrow=none;startFill=0;" edge="1" parent="1" source="38" target="44">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="38" value="&lt;div style=&quot;color: rgb(171, 178, 191); font-family: &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;span style=&quot;color: rgb(229, 192, 123);&quot;&gt;ArithmeticMean&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;font face=&quot;Droid Sans Mono, monospace, monospace&quot; color=&quot;#e5c07b&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;containing mild&lt;/span&gt;&lt;/font&gt;" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;labelBackgroundColor=none;fontSize=16;fontColor=#ffffff;fillColor=#1ba1e2;strokeColor=#006EAF;" vertex="1" parent="1">
+                    <mxGeometry x="960" y="530" width="140" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="44" value="&lt;b&gt;mild&lt;/b&gt; is needed to calculate the arithmetic mean.&lt;div style=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;The input is a list with integer values, then using the convolution algorithm we get the sum of all the values in the list, as a result, the function returns the number of values in the list and the total sum of the values from the list divided by their number&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontSize=16;fontColor=#ffffff;align=left;verticalAlign=top;fillColor=#1ba1e2;strokeColor=#006EAF;" vertex="1" parent="1">
+                    <mxGeometry x="960" y="640" width="250" height="220" as="geometry"/>
+                </mxCell>
+                <mxCell id="46" value="This is the main and closing backend file, only the backend logic should be built in it" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontSize=14;fontColor=#000000;align=left;verticalAlign=top;fillColor=#1EB6FF;strokeColor=#006EAF;" vertex="1" parent="1">
+                    <mxGeometry x="729.65" y="-140" width="230" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="50" value="Here data is collected from drom.ru to build analytics, the data is placed in sqlite" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontSize=14;fontColor=#000000;align=left;fillColor=#1EB2FA;strokeColor=#006EAF;" vertex="1" parent="1">
+                    <mxGeometry x="729.6500000000001" width="230" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="51" value="asynchronous file for quick collection of prices, returns a list with prices" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontSize=14;fontColor=#0D0D0D;align=left;fillColor=#1EB6FF;strokeColor=#006EAF;" vertex="1" parent="1">
+                    <mxGeometry x="729.65" y="130" width="230" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="57" value="GetPriveAuto:&amp;nbsp;a function for the initial parsing of the page, where it finds out the maximum displayed value of the pages and passes the baton to another function that already fills the global variable with prices" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontSize=14;fontColor=#FFFCFF;align=left;verticalAlign=top;" vertex="1" parent="1">
+                    <mxGeometry x="1055" y="130" width="220" height="130.39" as="geometry"/>
+                </mxCell>
+                <mxCell id="59" value="__getListPrice:&amp;nbsp;This procedure runs asynchronously through the pages filling the global variable with prices" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontSize=14;fontColor=#FFFCFF;fillColor=none;align=left;verticalAlign=top;" vertex="1" parent="1">
+                    <mxGeometry x="1300" y="130" width="200" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="61" value="Description of the internal architecture" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontSize=11;fontColor=#FFFCFF;fillColor=#242424;labelBorderColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="920" y="90" width="190" height="20" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
