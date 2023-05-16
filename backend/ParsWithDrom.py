@@ -3,6 +3,7 @@ import sqlite3
 from bs4 import BeautifulSoup
 from PriceArray import getPriсeAuto
 from getPrice.mathTask import ArithmeticMean
+from json import load, dump
 
 """
     Calculation formula:
@@ -85,7 +86,6 @@ class LinkFormation:
         """
             A function that iterates over generations and returns lists of end links
         """
-        from asyncio import run # *
         
         for generation in range(1, 3 + 1):
             statusGeneration = requests.get(controlURL + f"/generation{generation}/restyling0/").status_code
@@ -97,13 +97,34 @@ class LinkFormation:
                 if fullUrl != 200:
                     break
                 
-                sql.execute(f"INSERT INTO urlib (model, url, generation) VALUES (?, ?, ?)", (green, mod + ' ' + controlURL.split('/')[-1], f"generation{generation} restyling{restyling}"))
+                sql.execute(f"INSERT INTO urlib (model, url, generation) VALUES (?, ?, ?)", (mod + ' ' + controlURL.split('/')[-1], green, f"generation{generation} restyling{restyling}"))
 
                 db.commit()
                 
-                data = run(getPriсeAuto(green))
+                __clark(green)
 
-                return ArithmeticMean().mild(data)
+def __clark(greenLink: str) -> tuple:
+    from asyncio import run
+
+    data = run(getPriсeAuto(greenLink))
+    return ArithmeticMean().mild(data)
+
+def __getChekSumUrllib(file: str="UrlAuto.db") -> str:
+    import hashlib
+
+    checkSum = None
+    with open(file, 'rb') as file:
+        checkSum = hashlib.md5(file.read()).hexdigest()
+
+    return checkSum
+
+def __databaseCheck() -> bool:
+
+    with open("Q.json") as qJson:
+        src = load(qJson)
+
+    if src["md5sum-UrlAuto.db"] == __getChekSumUrllib():
+        return True
 
 def get_priceDrom() -> None:
     """
@@ -114,6 +135,15 @@ def get_priceDrom() -> None:
     """
     
     global db, sql
+
+    if __databaseCheck():
+        # здесь надо вызвать __clark и он будет возрощать сердную арефметическую и кол-во тачек.
+        # По ссылкам будем извлекать модель и марку, а ссылки будем конечно же брать из БД
+        return
+
+    # если __clark не вернёт True, то тут то мы начинаем собирать ссылки вплоть до поколения и ристайлинга 
+    # А не вернуть true он может только если в таблице какие-то повреждения или изменения - которые могут привести к аномалиям 
+    # Это такой, временный сценарий равития событий
 
     # call the main function that parses drom.ru
     star = LinkFormation()
@@ -132,3 +162,12 @@ def get_priceDrom() -> None:
     # etafet until we get integer prices and other important ones auto parameters
     for i in star.parsignRootPage():
         star.getListAutoModel(*i.keys(), *i.values())
+
+    sum = {
+        "md5sum-UrlAuto.db" : __getChekSumUrllib()
+    }
+
+    with open("Q.json", 'w') as qJson:
+        dump(sum, qJson, indent=2, ensure_ascii=False)
+
+    # otherwise, the database with links is simply read and calculations are performed
