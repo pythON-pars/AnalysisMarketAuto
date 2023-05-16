@@ -3,9 +3,45 @@
     It does not carry any semantic load.
 """
 
-from getPrice.mathTask import ArithmeticMean
+import hashlib
+def file_as_bytes(file):
+    with file:
+        return file.read()
 
-b = [270000, 200000, 359000, 270000, 215000, 315000, 440000, 440000, 270000, 450000, 100000, 190000, 150000, 350000, 320000, 239000, 550000, 350000, 620000, 280000, 200000, 160000, 155000, 200000, 205000, 345000, 320000, 235000, 299000, 1450000, 220000, 260000, 282000, 220000, 265000, 230000, 290000, 200000, 230000, 190000]
+# print(hashlib.md5(file_as_bytes(open("UrlAuto.db", 'rb'))).hexdigest())
+# print(type(file_as_bytes(open("UrlAuto.db", 'rb'))))
 
-s = ArithmeticMean().mild(b)
+def testF():
+    with open("UrlAuto.db", 'rb') as file:
+        s = hashlib.md5(file.read()).hexdigest()
+        print(s)
+
+# testF()
+
+from json import load, dump
+
+s = {
+    "md5sum-UrlAuto.db" : 'ba420bbc3b55aa55126dc795ef684b98'
+}
+
+# with open("Q.json", 'w') as qJson:
+#     dump(s, qJson, indent=2)
+
+def __databaseCheck():
+    import hashlib
+    
+    file = "UrlAuto.db"
+
+    checkSum = None
+    with open(file, 'rb') as file:
+        checkSum = hashlib.md5(file.read()).hexdigest()
+
+    with open("Q.json") as qJson:
+        src = load(qJson)
+
+    if src["md5sum-UrlAuto.db"] == checkSum:
+        return True
+
+s = __databaseCheck()
+
 print(s)
