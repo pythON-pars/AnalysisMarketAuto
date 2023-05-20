@@ -101,13 +101,24 @@ class LinkFormation:
 
                 db.commit()
                 
-                __clark(green)
+                res = clark(green)
+                writeSql_result(result=res, model=mod)
 
-def __clark(greenLink: str) -> tuple:
+def writeSql_result(result: tuple, model: str):
+    average, count = result
+
+    sqlRes.execute('INSERT INTO price (average, count, model) VALUES (?, ?, ?)', (int(average), int(count), str(model)))
+    dataRes.commit()
+
+def clark(greenLink: str) -> tuple:
     from asyncio import run
 
     data = run(getPriсeAuto(greenLink))
-    return ArithmeticMean().mild(data)
+    result = ArithmeticMean().mild(data)
+
+    print(result)
+
+    return result
 
 def __getChekSumUrllib(file: str="UrlAuto.db") -> str:
     import hashlib
@@ -120,10 +131,10 @@ def __getChekSumUrllib(file: str="UrlAuto.db") -> str:
 
 def __databaseCheck() -> bool:
 
-    with open("Q.json") as qJson:
-        src = load(qJson)
+    sum = sqlRes.execute("SELECT * FROM controlSum").fetchall()[0]
+    dataRes.commit()
 
-    if src["md5sum-UrlAuto.db"] == __getChekSumUrllib():
+    if sum[0] == __getChekSumUrllib():
         return True
 
 def get_priceDrom() -> None:
@@ -134,23 +145,38 @@ def get_priceDrom() -> None:
         This module was created only to work with drom.ru
     """
     
-    global db, sql
-
-    if __databaseCheck():
-        # здесь надо вызвать __clark и он будет возрощать сердную арефметическую и кол-во тачек.
-        # По ссылкам будем извлекать модель и марку, а ссылки будем конечно же брать из БД
-        return
-
-    # если __clark не вернёт True, то тут то мы начинаем собирать ссылки вплоть до поколения и ристайлинга 
-    # А не вернуть true он может только если в таблице какие-то повреждения или изменения - которые могут привести к аномалиям 
-    # Это такой, временный сценарий равития событий
-
-    # call the main function that parses drom.ru
-    star = LinkFormation()
+    global db, sql, dataRes, sqlRes
 
     # create a database
     db = sqlite3.connect("UrlAuto.db")
     sql = db.cursor()
+
+    dataRes = sqlite3.connect("result.db")
+    sqlRes =  dataRes.cursor()
+
+    sqlRes.execute('CREATE TABLE IF NOT EXISTS price (average INT, count INT, model TEXT)')
+    dataRes.commit()
+
+    sqlRes.execute('CREATE TABLE IF NOT EXISTS controlSum (md5sum TEXT)')
+    dataRes.commit()
+
+    if __databaseCheck():
+        db = sqlite3.connect("UrlAuto.db")
+        sql =  db.cursor()
+
+        result = sql.execute("SELECT * FROM urlib;").fetchall()
+        db.commit()
+
+        for Old_url in result:
+            clark(Old_url[1])
+
+        return
+    
+    # if __clark does not return True, then here we start collecting links up to generation and restyling
+    # And it can not return true only if there are some damages or changes in the table - which can lead to anomalies
+    
+    # call the main function that parses drom.ru
+    star = LinkFormation()
 
     # create a table for collecting links
     sql.execute('CREATE TABLE IF NOT EXISTS urlib (model TEXT, url TEXT, generation TEXT)')    
@@ -163,11 +189,6 @@ def get_priceDrom() -> None:
     for i in star.parsignRootPage():
         star.getListAutoModel(*i.keys(), *i.values())
 
-    sum = {
-        "md5sum-UrlAuto.db" : __getChekSumUrllib()
-    }
-
-    with open("Q.json", 'w') as qJson:
-        dump(sum, qJson, indent=2, ensure_ascii=False)
+    sqlRes.execute("INSERT INTO controlSum (md5sum) VALUES (?)", (__getChekSumUrllib()))
 
     # otherwise, the database with links is simply read and calculations are performed
